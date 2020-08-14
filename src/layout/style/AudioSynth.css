@@ -1,0 +1,241 @@
+.AudioSynthTopContainer{
+    margin-top: 103px;
+    padding-left: 17px;
+    max-width: 100%;
+}
+.rectanglenex {
+    transition: transform 1s;
+    display: inline-block;
+    background-image: url(/assets/img/nexus_bg_card.jpg);
+    background-size: 420px;
+    margin: 5px;
+    border-radius: 6px;
+    border: 1px solid #ffffff30;
+    height: 221px;
+    width: 210px;
+    z-index: 0;
+}
+.rectanglenex:hover{
+    border: 1px solid #ffffff70;
+    box-shadow: 0px 0px 20px #ffffff30;
+}
+.rectanglenex img{
+    width: 25%;
+    padding-top: 5px;
+    padding-left: 5px;
+    float: left;
+    -webkit-filter: drop-shadow(-1px 1px 2px rgba(0, 0, 0, 1));
+    filter: drop-shadow(-1px 1px 2px rgba(0, 0, 0, 1));
+}
+
+.rectanglenex h5 {
+    font-family: arial;
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 6px;
+    margin: 0 auto;
+    text-shadow: -1px 1px #000000;
+}
+.rectanglenex p{
+    font-size: 12px;
+    color: grey;
+    margin: 5px 0px 16px 6px;
+    font-weight: lighter;
+    text-align: left;
+    text-shadow: -1px 1px #000000;
+}
+.rectanglenex hr{
+    border: 0;
+    clear: both;
+    width: 90%;
+    background-color: #ffffff30;
+    height: 1px;
+    margin: 0em auto;
+}
+.commingSoonAudioSynth{
+    font-size: 12px !important;
+    color: lightgrey !important;
+    padding: 25px 0px 2px 3px !important;
+    font-weight: normal !important;
+    text-align: left !important;
+    text-shadow: -1px 1px #000000 !important;
+}
+
+
+
+/*  */
+.rectanglesyl {
+    transition: transform 1s;
+    display: inline-block;
+    background-image: url(/assets/img/sylenth_bg_card.jpg);
+    background-size: 420px;
+    margin: 5px;
+    border-radius: 6px;
+    border: 1px solid #ffffff30;
+    height: 221px;
+    width: 210px;
+    z-index: 0;
+}
+.rectanglesyl:hover{
+    border: 1px solid #ffffff70;
+    box-shadow: 0px 0px 20px #ffffff30;
+}
+.rectanglesyl img{
+    width: 25%;
+    padding-top: 5px;
+    padding-left: 5px;
+    float: left;
+    -webkit-filter: drop-shadow(-1px 1px 2px rgba(0, 0, 0, 1));
+    filter: drop-shadow(-1px 1px 2px rgba(0, 0, 0, 1));
+}
+
+.rectanglesyl h5 {
+    font-family: arial;
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 6px;
+    margin: 0 auto;
+    text-shadow: -1px 1px #000000;
+}
+.rectanglesyl p{
+    font-size: 12px;
+    color: grey;
+    margin: 5px 0px 16px 6px;
+    font-weight: lighter;
+    text-align: left;
+    text-shadow: -1px 1px #000000;
+}
+.rectanglesyl hr{
+    border: 0;
+    clear: both;
+    width: 90%;
+    background-color: #ffffff30;
+    height: 1px;
+    margin: 0em auto;
+}
+
+
+
+
+
+/*  */
+.rectanglesyl {
+    transition: transform 1s;
+    display: inline-block;
+    background-image: url(/assets/img/sylenth_bg_card.jpg);
+    background-size: 420px;
+    margin: 5px;
+    border-radius: 6px;
+    border: 1px solid #ffffff30;
+    height: 221px;
+    width: 210px;
+    z-index: 0;
+}
+.rectanglesyl:hover{
+    border: 1px solid #ffffff70;
+    box-shadow: 0px 0px 20px #ffffff30;
+}
+.rectanglesyl img{
+    width: 25%;
+    padding-top: 5px;
+    padding-left: 5px;
+    float: left;
+    -webkit-filter: drop-shadow(-1px 1px 2px rgba(0, 0, 0, 1));
+    filter: drop-shadow(-1px 1px 2px rgba(0, 0, 0, 1));
+}
+
+.rectanglesyl h5 {
+    font-family: arial;
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 6px;
+    margin: 0 auto;
+    text-shadow: -1px 1px #000000;
+}
+.rectanglesyl p{
+    font-size: 12px;
+    color: grey;
+    margin: 5px 0px 16px 6px;
+    font-weight: lighter;
+    text-align: left;
+    text-shadow: -1px 1px #000000;
+}
+.rectanglesyl hr{
+    border: 0;
+    clear: both;
+    width: 90%;
+    background-color: #ffffff30;
+    height: 1px;
+    margin: 0em auto;
+}
+
+
+
+
+
+/*  */
+
+.rectangleglad {
+    transition: transform 1s;
+    display: inline-block;
+    background-image: url(/assets/img/gladiator_bg_card.jpg);
+    background-size: 420px;
+    margin: 5px;
+    border-radius: 6px;
+    border: 1px solid #ffffff30;
+    height: 221px;
+    width: 210px;
+    z-index: 0;
+}
+.rectangleglad:hover{
+    border: 1px solid #ffffff70;
+    box-shadow: 0px 0px 20px #ffffff30;
+}
+.rectangleglad img{
+    width: 25%;
+    padding-top: 5px;
+    padding-left: 5px;
+    float: left;
+    -webkit-filter: drop-shadow(-1px 1px 2px rgba(0, 0, 0, 1));
+    filter: drop-shadow(-1px 1px 2px rgba(0, 0, 0, 1));
+}
+
+.rectangleglad h5 {
+    font-family: arial;
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 6px;
+    margin: 0 auto;
+    text-shadow: -1px 1px #000000;
+}
+.rectangleglad p{
+    font-size: 12px;
+    color: grey;
+    margin: 5px 0px 16px 6px;
+    font-weight: lighter;
+    text-align: left;
+    text-shadow: -1px 1px #000000;
+}
+.rectangleglad hr{
+    border: 0;
+    clear: both;
+    width: 90%;
+    background-color: #ffffff30;
+    height: 1px;
+    margin: 0em auto;
+}
+
+
+

@@ -1,0 +1,165 @@
+.topVideoContainer{
+	/* background-color:#131413; */
+	/* height: 1837px !important; */
+}
+
+	   /*//////////////////// Seperator ////////*/
+	   
+	   .seperator{
+		margin-top: 57px;
+		margin-bottom: 0px;
+	   text-align: center;
+
+}
+.seperator li{
+display: inline;
+padding: 0px 0px 0px 13px;
+text-align: center;
+}
+
+.rectangle{
+width: 165px;
+}
+.middleLine{
+width:759px;
+border-top: 1px solid #707070;
+}
+
+.fourBoxes{
+width: 55px;
+}
+
+/* View all icon */
+.view{
+
+	float: right;
+    margin-right: 69px;
+	color: white;
+
+}
+.view li{
+	display: inline-block;
+	padding: 0px 0px 0px 7px;
+	right: 0;
+
+}
+.viewArrow{
+	width: 14px;
+}
+
+
+
+
+.videosAlbum{
+
+	display: grid;
+	grid-gap: 27px;
+	grid-template-columns: 1fr 1fr 1fr 1fr; 
+	margin:30px 70px;
+
+
+}
+.album{
+	box-shadow: 2px 2px 6px 1px rgba(4, 4, 4, 0.91);
+}
+.videosAlbum img{
+	width: 100%;
+	
+
+}
+.card-body{
+	background-color: black;
+	color: white;
+}
+.card-body h6{
+	font-size: 19px;
+	margin-top: 0px;
+	margin-bottom: 17px;
+}
+	 /*///////////////////////////////// Next Page /////////////////////////*/
+	 .nextPage{
+		margin-right: 65px;
+        float: right;
+		color: white;
+	
+		}
+		 .nextPage li{
+			display: inline-block;
+			padding: 0px 0px 0px 7px;
+			right: 0;
+	
+		 }
+		 .nextPage p{
+			 font-size: medium;
+		 }
+		 .solidArrow{
+			 width: 27px;
+		 }
+
+
+/* ///////////////////  Media Query  /////////////// */
+/* ///////////////////  Media Query  /////////////// */
+
+@media only screen and (min-width: 1367px){
+	.middleLine {
+		width: 965px;
+	}
+
+}
+@media only screen and (max-width: 1187px){
+	.middleLine {
+		width: 650px;
+	}
+
+}
+
+@media only screen and (max-width: 1090px){
+	.middleLine {
+		width: 530px;
+	}
+
+}
+@media only screen and (max-width: 920px){
+	.middleLine {
+		width: 400px;
+	}
+
+}
+@media only screen and (max-width: 800px){
+	.middleLine {
+		/* width: 300px; */
+	}
+
+}
+
+@media only screen and (max-width: 768px){
+.videosAlbum{
+    grid-template-columns: 1fr 1fr;
+}
+.middleLine {
+	width: 247px;
+}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 507px){
+	.videosAlbum{
+		grid-template-columns: 1fr;
+	}
+	.nextPage {
+		margin: 0px;
+        float: none;
+		text-align: center;
+	}
+	.middleLine {
+		width: 59px;
+	}
+}
+
+
+@media (min-width: 576px) {
+
+	.transform-on-hover:hover {
+	    transform: translateY(-10px) scale(1.02);
+	   
+	}
+}

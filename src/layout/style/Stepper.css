@@ -1,0 +1,141 @@
+
+.stepperContainer{
+    
+    background-color:black;
+
+}
+
+.homeSliderRoundIcon{
+    width: 120px;
+    float: left;
+
+    margin-top: -36px;
+
+}
+
+.homeSliderFlagIcon{
+   height: 40px;
+   float: right;
+}
+.homeSliderParagraph{
+    color: white!important;
+    font-size: large;
+    text-align: center;
+}
+.MuiSvgIcon-root {
+    width: 96px!important;
+    fill: currentColor;
+    height: 50px!important;
+    display: inline-block;
+    font-size: 1.5rem;
+    flex-shrink: 0;
+    user-select: none;
+    color: #3f51b5!important;
+}
+.MuiMobileStepper-dot {
+    width: 15px!important;
+    height: 15px!important;
+    margin: 0 2px;
+    border-radius: 50%;
+    background-color: white!important;
+}
+.MuiMobileStepper-dotActive {
+    background-color: #3f51b5!important;
+}
+.MuiMobileStepper-root{
+    background-color: black !important;
+}
+.MuiMobileStepper-root {
+        /* padding: 100px ; */
+        justify-content: center !important;
+
+}
+.makeStyles-root-1 {
+    margin: 0px auto;
+    max-width: 70%;
+    background: transparent!important;
+}
+
+.subscribeHeader{
+    margin-top: 23px;
+}
+
+.makeStyles-img-3{
+    width:55%;
+
+}
+.homeImageSliderRow{
+    margin-top: 70px;
+}
+
+
+.subscribeHeader h1{
+    font-size: 31px;
+    font-weight: bold;
+    color:white;
+    
+}
+
+/*///////////////////////////////////////   MEDIA QUERY   ///////////////////////////////////// */
+@media (min-width: 768px) and (max-width: 1024px){
+    .homeSliderParagraph{
+        width: 415px;
+    }
+
+}
+
+@media only screen and (max-width:768px){
+
+    .subscribeHeader h1{
+        font-size: 18px !important;
+        margin-top: 55px !important;
+    }
+    
+    .makeStyles-img-3 {
+
+        width:50% !important;
+    }
+    .homeSliderRoundIcon{
+    width: 99px ;
+    margin-top: -33px;
+
+    }
+
+
+}
+@media only screen and (max-width:768px){
+
+.makeStyles-img-3 {
+    margin-left: 79px;
+
+}
+}
+@media only screen and (max-width:550px){
+    .stepperContainer{
+    
+        margin-bottom: 333px;
+    
+}
+/* .centerIcons li{
+    display:block;
+    padding: 0px 0px 0px 7px;
+
+
+ } */
+
+
+}
+
+
+@media only screen and (max-width:358px){
+.homeSliderParagraph {
+      margin-top: 10px;
+
+      width: 233px;
+    }
+}
+
+
+
+
+

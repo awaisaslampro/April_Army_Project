@@ -1,0 +1,233 @@
+div{
+    margin: 0 ;
+    padding: 0 ;
+}
+.gamesContainer{
+    margin-top: 103px;
+}
+.gameHeader h3{
+  
+    color: white;
+    margin: 0;
+    margin: 13px;
+}
+.gameHeader{
+    display: flex;
+    justify-content: center;
+    
+}
+.gamesHrLeft{
+    margin: 33px;
+    float: left;
+    width: 245px;
+    text-align: center;
+  
+}
+
+.gamesHrRight{
+    margin: 33px;
+    text-align: center;
+    float: right;
+    width: 245px;
+}
+.gamesImages img{
+    width: 87%;
+}
+.gamesImages{
+    display: flex;
+    justify-content: center;
+}
+.gamesImages >div{
+   
+}
+.quizDisplay{
+    text-align: center;
+    border-radius: 17px;
+    background-color: black;
+    height: 280px;
+    width: 280px;
+    margin: 31px;
+}
+.quizContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.downloadGameContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.otherGamesContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.csgoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 17px;
+    background-color: black;
+    height: 280px;
+    width: 280px;
+    margin: 31px;
+}
+
+.otherGamesDisplay{
+    text-align: center;
+    border-radius: 17px;
+    background-color: black;
+    height: 280px;
+    width: 280px;
+    margin: 31px;
+}
+.csgoContainer img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+.gamesLinks{
+
+    /* margin-left: 30px; */
+}
+
+.gamesLinks>div{
+    /* text-align: center; */
+    /* padding: 33px 133px; */
+}
+ .gamesButton{
+    background-color: #ffff3a;
+    border: 0px;
+    border-radius: 7px;
+    font-size: 21px;
+    font-weight: 600;
+    /* margin: 33px 44px; */
+    padding: 19px 66px;
+}
+.startQuizButton
+{
+    background-color: #ffff3a;
+    border: 0px;
+    border-radius: 7px;
+    font-size: 21px;
+    font-weight: 600;
+    padding: 19px 83px;
+}
+
+
+
+
+
+
+/*/////////////////////////////////// Media Query /////////////////////// */
+
+@media only screen and (max-width: 975px){
+
+    .quizDisplay {
+        margin: 20px;
+    }
+    .csgoContainer
+    {
+        margin: 20px;
+    }
+    .otherGamesDisplay{
+        margin: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 928px){
+
+    .quizDisplay {
+        margin: 10px;
+    }
+    .csgoContainer
+    {
+        margin: 10px;
+    }
+    .otherGamesDisplay{
+        margin: 10px;
+    }
+
+    .gameHeader h1 {
+        font-size: 33px;
+    }
+      
+.gamesHrRight{
+    width: 225px;
+}
+.gamesHrLeft{
+    width: 225px;
+}
+
+}
+
+@media only screen and (min-width:768px)and (max-width: 887px){
+    .quizDisplay {
+        height: 253px;
+        width: 249px;
+}
+.csgoContainer {
+    height: 253px;
+    width: 249px;
+}
+.otherGamesDisplay {
+    height: 253px;
+    width: 249px;
+}
+
+.startQuizButton {
+    padding: 16px 57px;
+
+}
+.gamesButton{
+    padding: 16px 47px;
+}
+}
+
+
+@media only screen and (min-width:768px)and (max-width: 793px) {
+
+    .quizDisplay {
+        margin: 3px;
+    }
+    .csgoContainer
+    {
+        margin: 3px;
+    }
+    .otherGamesDisplay{
+        margin: 3px;
+    }
+}
+/*/////   For Mobile View   //////*/
+@media only screen and (max-width: 768px){
+
+    .gamesImages{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    .gameHeader {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 33px;
+     }
+     .gameHeader h3{
+         font-size: 23;
+     }
+    .gamesHrLeft {
+            margin: 0px;
+            width: 107px;
+    }
+    .gamesHrRight{
+        width: 107px;
+        margin: 0px;
+    }
+   
+}

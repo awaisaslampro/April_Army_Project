@@ -1,0 +1,259 @@
+.systemRequirementsContainer{
+    margin-top: 103px;
+}
+
+.systemRequirements{
+    margin-top: 103px;
+}
+
+/* download Seperator */
+.downHeader{
+    display: flex;
+    justify-content: center; 
+}
+.downHrLeft{
+    margin: 33px;
+    float: left;
+    width: 297px;
+    text-align: center;
+}
+.downHrRight{
+    margin: 33px;
+    text-align: center;
+    float: right;
+    width: 297px;
+}
+.downHeader h3{
+    margin: 13px;
+    font-size: 30px;
+    color: white;
+}
+
+
+
+
+
+
+
+/* download Seperator */
+.systemHeader{
+    display: flex;
+    justify-content: center; 
+}
+.systemHrLeft{
+    margin: 33px;
+    float: left;
+    width: 311px;
+    text-align: center;
+}
+.systemHrRight{
+    margin: 33px;
+    text-align: center;
+    float: right;
+    width: 311px;
+}
+.systemHeader h3{
+    margin: 13px;
+    font-size: 30px;
+    color: white;
+}
+.gameVersion h3{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 11px;
+    margin-top: 0px;
+    padding: 0px;
+}
+.gameVersionDescription p{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* System Requirements */
+.requireHeader{
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.requireHrLeft{
+    margin: 33px;
+    float: left;
+    width: 249px;
+    text-align: center;
+}
+.requireHrRight{
+    margin: 33px;
+    text-align: center;
+    float: right;
+    width: 249px;
+}
+
+.requireHeader h3{
+    margin: 13px;
+    font-size: 30px;
+    color: white;
+}
+
+
+
+
+
+
+
+/*///////////// Media Query ///////////*/
+
+@media only screen and (max-width: 1200px){
+
+    .requireHeader h3{
+        font-size: 27px;
+    }
+    .requireHrLeft {
+        width: 200px;
+    }
+    .requireHrRight {
+        width: 200px;
+    }
+/*  */
+    .systemHeader h3{
+        font-size: 27px;
+    }
+    .systemHrLeft {
+        width: 245px;
+    }
+    .systemHrRight {
+        width: 245px;
+    }
+/*  */
+
+.downHeader h3{
+    font-size: 27px;
+}
+
+.downHrLeft {
+    width: 237px;
+}
+.downHrRight {
+    width: 237px;
+}
+}
+
+@media only screen and (max-width: 990px){
+    .forLeft{
+        width: 100px;
+    }
+    .forRight{
+        width: 117px;
+    }
+    .requireHeader h3{
+        font-size: 23px;
+    }
+    .requireHrLeft {
+        width: 117px;
+    }
+    .requireHrRight {
+        width: 100px;
+    }
+/*  */
+    .systemHeader h3{
+        font-size: 23px;
+    }
+    .systemHrLeft {
+        width: 155px;
+    }
+    .systemHrRight {
+        width: 155px;
+    }
+/*  */
+.downHeader h3{
+    font-size: 23px;
+}
+.downHrLeft {
+    width: 133px;
+}
+.downHrRight {
+    width: 133px;
+}
+}
+/*////////// Mobile View /////////*/
+
+@media only screen and (max-width: 768px){
+    .gameVersion h3 {
+        font-size: 15px;
+        margin: 0px;
+
+
+    }
+
+
+    .downloadSources h3 {
+        font-size: 23px;
+    }
+    .downloadIcons {
+        font-size: 53px;
+    }
+
+
+    .systemHeader{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .systemHrLeft {
+        width: 131px;
+    }
+    .systemHrRight {
+        width: 131px;
+    }
+    .systemHrLeft {
+        margin: 0;
+    }
+    .systemHrRight {
+        margin: 0px;
+    }
+    /*  */
+    .downHeader{
+        margin-top: 33px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .downHrRight {
+        width: 153px;
+    }
+    .downHrLeft {
+        width: 153px;
+    }
+    .downHrLeft {
+        margin: 0px;
+    }
+    .downHrRight {
+        margin: 0px;
+    }
+/*  */
+
+.requireHeader{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.requireHrLeft{
+    width: 225px;
+}
+.requireHrRight{
+    width: 225px;
+}
+.requireHrLeft {
+    margin: 0px;
+}
+.requireHrRight {
+    margin: 0px;
+}
+/*  */
+
+
+
+
+}

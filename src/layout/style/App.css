@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+
+  background-color: #131413 !important;
+  background-image: url("/assets/img/croud.png");
+ 
+ background-blend-mode: soft-light;
+ background-position: center; 
+ background-repeat: no-repeat; 
+ background-size: cover;  
+
+ 
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+a{
+  color: #333;
+  text-decoration: none !important;
+}
+.container{
+  margin:auto;
+  padding: 0 1rem;
+}
+
+
+
+/*////////////////////////////////////////////////////
+//////////////////////////////////////////////////////// */

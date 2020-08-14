@@ -1,0 +1,103 @@
+.notificationContainerOnHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 95px;
+    /* width: 0 auto; */
+}
+.notificationContainerOnHead >div{
+    margin: 3px 0px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    border: 1px solid gray;
+    width: 955px;
+}
+
+.notificationStatusContainer{
+    position: relative;
+    margin: 15px 0px;
+    /* min-height: 81px; */
+
+}
+.notificationStatusContainer li{
+    display: inline;
+  
+    list-style: none;
+}
+
+.notificationImagesList{
+    padding:  0px 23px;
+}
+
+.notificationImagesList img{
+    border-radius: 50%;
+    width: 6%;
+}
+
+.notificationStatus{
+   
+    padding-right: 23px;
+}
+.notificationStatus span{
+    padding:    0px 5px ;
+}
+
+.notificationTimeRight{
+    position: absolute;
+    top: -14px;
+    font-size: 11px;
+    right: -7px;
+}
+
+
+/*////////////////////////////////////  Media Query  ////////////////////////////////////*/
+@media screen and (max-width: 1350px)  {
+    .notificationImagesList img{
+       
+        width: 8%;
+    }  
+}
+@media screen and (max-width: 1000px){
+.notificationImagesList img {
+    width: 10%;
+}
+}
+@media screen and (max-width: 768px)  {
+   
+.notificationContainerOnHead >div{
+    width: 545px;
+  }  
+  
+  }
+
+ 
+  @media screen and (max-width: 600px)  {
+     
+.notificationContainerOnHead >div{
+    max-width: 425px;
+  } 
+
+    .notificationStatusContainer li{
+       /* display: grid;
+       justify-items: center; */
+    }
+    
+    .notificationImagesList img{
+       
+        width: 17%;
+    }  
+      }
+
+      @media screen and (max-width: 450px)  {
+         
+.notificationContainerOnHead >div{
+    max-width: 313px;
+  } 
+  .notificationImagesList img{
+       
+    width: 21%;
+}  
+    
+    }

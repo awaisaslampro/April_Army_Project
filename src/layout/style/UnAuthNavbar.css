@@ -1,0 +1,150 @@
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    
+  }
+  a{
+    color: #333;
+    text-decoration: none;
+  }
+  .container{
+    margin:auto;
+    padding: 0 1rem;
+  } */
+  /* .btn{
+    display: inline-block;
+    border:none;
+    background: #555;
+    color: #fff;
+    padding: 7px 20px;
+    cursor: pointer;
+  }
+  
+  } */
+  
+  /*////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////// */
+  .material-icons {
+    color: white !important;
+  }
+  .searchIcon{
+    color: white;
+  }
+  .mdl-layout__drawer{
+    margin-top: 79px;
+    /* background-color: black !important; */
+    border: 1px solid black !important;
+   
+    width: 217px !important;
+    
+  
+  }
+  
+  .siderLogo{
+    width: 100%;;
+    
+  }
+  .sideLogo img{
+    width: 14%;;
+    
+  }
+  .sideLogo{
+    height: 533px;
+    padding: 13px 13px;
+    opacity: 1 !important;
+    background-image: url("/assets/img/siderSinger1.png");
+    /* background-color: rgb(48, 51, 57); */
+     /* background-blend-mode: soft-light; */
+    /* background-position: center;  */
+   background-repeat: no-repeat;
+
+   
+  }
+  .sideLogo a{
+    text-decoration: none;
+    margin: 0;
+    line-height: 39px !important;
+    letter-spacing: 0 !important;
+    opacity: 1.57 !important;
+    
+    color: #f8f9fa !important;
+    font-weight: bold !important;
+    
+    padding: 15px !important;
+    font-size: 15px !important;
+  }
+
+  
+   
+  .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+     background-color: black !important;
+  
+  }
+  .mdl-navigation__link {
+    color: white !important;
+    line-height: 24px  !important; 
+    opacity: 0px  !important;
+  
+    text-decoration: none;
+  
+  }
+/*   
+  .main-landing{
+   
+     background-image: url("/assets/img/croud.png");
+     background-color: rgb(48, 51, 57);
+      background-blend-mode: soft-light;
+     background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+  }  */
+  
+  .header-color{
+    background-color: #141416;
+    /* color: black; */
+  }
+  
+  .midLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    top: 3px; 
+  }
+  
+  .middleLogo img{
+    width:29%;
+  
+  }
+  /* 
+  .logoIn{
+    margin:0px;
+    padding: 0px;
+  } */
+  
+  .logoIn img{
+    width:97px;
+  }
+  
+  .mdl-layout__header-row{
+    height: 79px !important;
+  }
+  .mdl-layout__header {
+    box-shadow: 4px 3px 8px #000000 !important;
+  
+  
+  }
+  
+  /*//////////////////////////////////////    Media Query   ////////////////////////////*/
+  
+  @media screen and (max-width: 1024px){
+    .mdl-layout__header {
+      display: inline-block !important;
+  }
+  }
+  

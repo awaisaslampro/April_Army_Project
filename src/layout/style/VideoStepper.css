@@ -1,0 +1,87 @@
+.carousel {
+    /* margin-top: 103px; */
+}
+
+    .item1, .item2{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+   
+}
+.zmin{
+    padding: 0 7px !important;
+}
+.zmin img{
+  border-radius: 21px;
+  width: 100%;
+}
+.carousel-control{
+    opacity: 1 !important;
+}
+    .carousel-control .glyphicon-chevron-right{
+        top: 110% !important;
+        width: 17px !important;
+        height: 17px !important;
+        font-size: 17px !important;
+        margin-right: 50px !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+.carousel-control .glyphicon-chevron-left{
+ top: 110% !important;
+    width: 17px !important;
+    height: 17px !important;
+    font-size: 17px !important;
+    margin-left: 1237px !important;
+    margin-right: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important; 
+
+
+
+    /* top: 110% !important;
+    width: 17px !important;
+    height: 17px !important;
+    font-size: 17px !important;
+    margin-left: 1237px !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+
+
+
+    left: auto !important;
+    right: 0 !important; */
+}
+.left{
+    margin: 0 !important;
+}
+.carousel-control.left{
+    background-image: none !important;
+}
+.carousel-control.right{
+    background-image: none !important;
+}
+
+.carousel-control.left,.carousel-control.right  {background:none;width:25px;}
+
+.mark {
+    padding: 12px 0;background:none;
+}
+
+.sprite-i-triangle {
+    background-position: 0 -1298px;
+    height: 44px;
+    width: 50px;
+}
+
+
+.block {
+    display: block;
+}
+
+.ab {
+    position: absolute;
+}
+

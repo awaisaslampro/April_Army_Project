@@ -1,0 +1,315 @@
+
+.file-field {
+    position: relative;
+}
+
+
+.fanArtUploadbtn {
+    float: left;
+    transition: .2s ease-out;
+    /* color: #fff!important; */
+    margin: 6px;
+    white-space: normal!important;
+    word-wrap: break-word;
+    position: relative;
+
+    background-color: #28a745;
+    border: 2px solid #4e4b4b52;
+    border-radius: 20px !important;
+    font-size: 9px;
+    padding: 6px 7px;
+    position: relative;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+
+
+
+
+
+
+.file-field input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 1px;
+    cursor: pointer;
+    opacity: 0;
+    /* filter: alpha(opacity=0); */
+}
+
+
+
+.file-field .file-path-wrapper {
+    overflow: hidden;
+    padding-left: 10px;
+    height: 2.5rem;
+}
+
+
+
+#uploadEditor textarea{
+        border: none;
+        box-shadow: none;
+        background-color: rgba(255,255,255,.15);
+        width: 100%;
+        border-radius: 3px;
+        resize: none;
+        /* color: #bfbfbf; */
+        line-height: 1.1;
+        font-size: 16px;
+        height: 193px;
+        padding: 10px;
+}
+.file-path-wrapper .file-path{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #777474;
+    border-radius: 0;
+    outline: 0;
+    /* height: 2.1rem; */
+    width: 100%;
+    font-size: 13px;
+    box-shadow: none;
+    box-sizing: content-box;
+    -webkit-transition: all .3s;
+    transition: all .3s; 
+}
+.uploadfanArtInputType{
+    padding: 0 77px 0 0;
+}
+#uploadFanArt_footer{
+    padding: 10px 15px;
+    text-align: center;
+}
+.uploadFanArtSubmit_btn{
+    border: 0px;
+    border-radius: 30px;
+    background-color: #28a745;
+    color: #ffffffff;
+    padding: 5px 17px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #4e4b4b52;
+    text-transform: uppercase;
+    text-shadow: -1px 1px #000;
+}
+.uploadFanArtonHover:hover{
+    background-color: #0b7b25;
+    border: 2px solid #10101061;
+}
+.fanArtUploadbtn span{
+    font-size: 10px;
+    font-weight: bolder;
+    text-shadow: -1px 1px #000;
+    color: #fff;
+}
+
+
+
+
+/* ////////////////////////////////////////////////////////// */
+
+
+
+.card-block {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    /* -ms-flex: 1 1 auto; */
+    /* flex: 1 1 auto; */
+    padding: 1.25rem;
+}
+.card-block input{
+    touch-action: manipulation;
+}
+                                                    /* Md form */
+.md-form {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+.select-wrapper {
+    position: relative;
+}
+.select-wrapper span.carett {
+    /* color: initial; */
+    position: absolute;
+    right: 0;
+    top: 16px;
+    transform: rotate3d(1, 1, 1, 45deg);
+    font-size: 10px;
+}
+.mdb-select > .carett {
+    color: rgb(255, 255, 255) !important;
+}
+
+.select-wrapper input.select-dropdown {
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: 0;
+    height: 3rem;
+    line-height: 3rem;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0 0 15px;
+    padding: 0;
+    display: block;
+    user-select: none;
+    border-radius: 0;
+    box-shadow: none;
+    transition: all .3s;
+
+}
+.dropdown-content {
+    color: #fff;
+    background-color: #fff;
+    margin: 0;
+    display: none;
+    min-width: 100px;
+    max-height: 650px;
+    overflow-y: auto;
+    opacity: 0;
+    position: absolute;
+    z-index: 999;
+    will-change: width,height;
+    user-select: none;
+}
+
+.select-wrapper ul{
+    width: 1279px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+    display: none;
+}
+
+.dropdown-content li {
+    clear: both;
+    color: rgba(0,0,0,.87);
+    line-height: 1.5rem;
+    width: 100%;
+    text-align: left;
+    text-transform: none;
+}
+.dropdown-content li:active{
+background-color: #4285F4;
+}
+/* Drop down List design */
+.dropdown-content li>span {
+    font-size: 1.2rem;
+    color: #4285F4;
+    display: block;
+    padding: 1rem;
+}
+
+
+
+/* label */
+
+.md-form label {
+    position: absolute;
+    top: -14px;
+    font-size: .8rem;
+    color: #757575;
+    left: 0;
+    /* font-size: 1rem; */
+    cursor: text;
+    -webkit-transition: .2s ease-out;
+    transition: .2s ease-out;
+    touch-action: manipulation;
+}
+
+.uploadfanArtInput {
+    width: 373px;
+}
+
+
+
+
+
+/* Media Query */
+@media only screen and (max-width: 768px){
+    .uploadfanArtInput {
+        width: 273px;
+    }
+    #uploadEditor textarea{
+        height: 137px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+.uploadfanArtInput {
+    width: 213px;
+}
+.fanArtUploadbtn{
+    padding: 4px 5px;
+}
+.uploadFanArtSubmit_btn{
+    padding: 4px 13px;
+    font-size: 13px;
+}
+
+}
+
+
+@media only screen and (max-width: 507px){
+#uploadEditor textarea{
+    font-size: 15px;
+}
+.md-form small{
+    float: right;
+    width: 70%;
+}
+.md-form1 small{
+    float: right;
+    width: 59%;
+}
+.md-form {
+    position: relative;
+    margin-bottom: 5.5rem;
+}
+}
+
+@media only screen and (max-width: 407px){
+
+.uploadfanArtInput {
+    width: 183px;
+}
+#uploadEditor textarea{
+    font-size: 13px;
+
+}
+.fanArtUploadbtn span{
+    font-size: 9px;
+}
+.fanArtUploadbtn {
+    padding: 3px 5px;
+}
+.md-form small {
+    font-size: 12px;
+}
+.md-form1 small{
+    font-size: 12px;
+}
+.uploadFanArtSubmit_btn{
+    font-size: 12px;
+}
+.file-path-wrapper .file-path{
+    font-size: 12px;
+}
+
+}

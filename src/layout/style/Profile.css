@@ -1,0 +1,378 @@
+/* Edit Icon button on top right side */
+
+.editButtonContainer{
+	position: relative;
+}
+.buttonInCenter{
+	cursor: pointer;
+	position: absolute;
+    right: 0px;
+	top: 0px;
+	
+  }
+  .editText{
+	 
+  }
+  .MuiListItemText-root{
+	  margin: 0 !important;
+  }
+  .buttonInCenter img{
+	  width: 6px;
+  }
+  
+  .MuiList-padding{
+		  padding: 0 !important;
+  }
+
+  .MuiListItem-gutters {
+    padding-left: 26px;
+	padding-right: 16px;
+  }
+  .Component-paper-1{
+		  border: 0px white;
+	  }
+/* a{
+	color:white;
+}
+a:hover{
+	color: white;
+} */
+	  .MuiListItem-button{
+		  color: white;
+		  background-color: rgb(58, 56, 56) !important; 
+	  }
+	  .MuiListItem-button:hover{
+		  background-color: rgb(36, 36, 36) !important;
+	  }
+  
+	
+  
+
+/*////////////////////////     Main Profile   //////////////////// */
+.profileContainer{
+
+	background-color: black;
+	height: 517px;
+}
+.profileDoted{
+	position: absolute;
+	right: 0;
+	cursor: pointer;
+}
+.profileDoted img{
+  width: 20%; 
+}
+.mainNav{
+	display: flex;	
+	justify-content: center;
+}
+.navBar{
+	position: relative;
+	display: flex;
+	align-items: flex-start;
+	margin-top: 133px;
+	background-color: rgb(58, 56, 56);
+	text-decoration: none;
+	border-radius: 5px;	
+	
+	 margin-left: -7px;
+    margin-right: -7px; 
+}
+.navBar .navBarLink{
+	font-size: 18px;
+	color: white !important;
+	position: relative;
+
+}
+/* .navBar .navBarLink:after{
+
+	position: absolute;
+    content: '';
+    border-bottom: 3px solid #1eead8;
+    width: 99%;
+    transform: translateX(-50%);
+    bottom: 0px;
+    left: 50%;
+} */
+.navBar >div{
+	padding-top: 17px;
+	margin: 1px 25px;
+}
+
+
+.profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;	
+  
+}
+
+.profileDiv{
+  background-color: rgb(58, 56, 56);;
+  margin: 15px 7px 7px 7px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 30px;
+  height: 281px !important;
+
+  border-radius: 5px;
+
+}
+.profileImg img{
+	width: 37%;
+	margin-top: 9px;
+	
+}
+
+.profileText h4{
+	text-align: center;
+	line-height: 10px !important;
+}
+
+.profileText {
+	
+	color: white;
+
+}
+.profileText p{
+	margin-left: 5px;
+	text-align: left;
+}
+/*/////////////////////// Songs  ///////////////////////////////*/
+.songs{
+	text-align: center;
+	color: white;
+}
+.songs h1{
+	line-height: 2;
+	margin-top: 0px;
+	font-size: 18px;
+	margin-bottom: 0px;
+	color:white;
+}
+.line{
+	 height: 3px;
+	 margin-top: 0px;
+	 width:80%;
+}
+.singers{
+	display: flex;
+	 flex-flow: row;
+  /*align-content: flex-end;*/
+	 justify-content: space-around;
+}
+.singers img{
+	width: 77%;
+}
+.singersTag{
+	margin-top: 21px;
+}
+/*/////////////////////// Post  ////////////////////////////////////*/
+
+.progressLine{
+    text-align: center;
+}
+.mainPost{
+	margin-top: 8px;
+	display: flex;
+	 flex-direction: column;
+	 justify-content: space-around;
+	 min-height: 275px;
+
+	 margin-left: 7px;
+    margin-right: 7px;
+}
+
+.zero-pad{
+	padding: 0px;
+}
+.upperPost{
+		background-color: rgb(58, 56, 56);
+	border-radius: 5px;
+	margin-bottom: 11px;
+	margin-top:7px;	
+}
+.lowerPost{
+	min-height: 171px;
+	background-color: rgb(58, 56, 56);
+	border-radius: 5px;
+	
+}
+.post{
+
+	display: flex;
+	 flex-flow: row;
+	 justify-content: space-around;
+}
+.post p {
+	color: white;
+}
+
+.ratting h1{
+font-size: 18px;
+
+color:white;
+margin: 7px;
+text-align: center;
+}
+.rattingName{
+	display: flex;
+	 flex-flow: row;
+	 justify-content: space-around;
+}
+.rattingName p{
+	color: white;
+}
+.rattingRound{
+	display: flex;
+	 flex-flow: row;
+	 justify-content: space-around;
+}
+.rattingRound >div{
+	text-align: center;
+}
+.rattingRound p{
+	color: white;
+}
+.rattingRound img{
+	width: 53%;
+}
+
+.hvr-underline-from-center:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+	left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #1eead8;
+    height: 3px;
+    transition-property: left, right;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+/*////////////////////////   Media Query  ////////////////////////////*/
+@media only screen and (min-width: 1326px){
+	#customized-menu > div.MuiPaper-root.MuiMenu-paper.Component-paper-1.MuiPaper-elevation0.MuiPopover-paper.MuiPaper-rounded{     
+		top: 177px !important ;
+		left: 1117px !important;
+	  }
+}
+/* For Mobile Screen */
+@media only screen and (max-width: 768px){
+	.profileImg img {
+		width: 31%;
+	}
+	.navBar >div {
+		padding-top: 10px;
+        padding-bottom: 10px;
+	}
+	.navBar p{
+		margin-bottom: 0px;
+	}
+	.MuiTypography-body1 {
+		font-size: 12px !important;
+	}
+	
+	.MuiListItemText-root {
+		margin: -5px !important;
+	}
+	.navBar .navBarLink {
+		font-size: 17px;
+	}
+	
+.buttonInCenter img {
+    width: 5px;
+}
+}
+
+@media only screen and (max-width: 540px){
+	.navBar >div {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin: 1px 13px;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	.navBar >div {
+		padding-top: 7px;
+		padding-bottom: 7px;
+		margin: 1px 13px;
+	}
+.navBar .navBarLink {
+	font-size: 15px;
+
+}
+.buttonInCenter img {
+    width: 4px;
+}
+.profileText h4 {
+    font-size: 17px;
+}
+
+.MuiListItemText-root {
+    margin: -4px !important;
+}
+.MuiTypography-body1 {
+font-size: 12px !important;
+}
+}
+
+@media only screen and (max-width: 425px){
+	.navBar >div {
+		padding-top: 5px;
+		padding-bottom: 5px;
+		margin: 0px 10px;
+	}
+	.navBar .navBarLink {
+		font-size: 13px;
+	}
+	}
+
+@media only screen and (max-width: 400px){
+	.navBar >div {
+		padding-top: 3px;
+		padding-bottom: 3px;
+		margin: 0px 7px;
+	}
+	.navBar .navBarLink {
+		font-size: 13px;
+	}
+	
+.buttonInCenter img {
+    width: 3px;
+}
+.MuiTypography-body1 {
+	font-size: 10px !important;
+}
+.MuiListItemText-root {
+    margin: -7px !important;
+}
+}
+
+@media only screen and (max-width: 360px){
+	.navBar >div {
+		padding-top: 3px;
+		padding-bottom: 3px;
+		margin: 0px 5px;
+	}
+	.MuiMenuItem-root {
+		padding-top: 4px !important;
+		padding-left: 10px !important;
+		padding-right: 10px !important;
+	
+	}
+.navBar .navBarLink {
+	font-size: 13px;
+}
+}
+@media only screen and (min-width: 320px){
+
+.MuiMenuItem-root {
+	min-height: auto !important;
+	
+}
+}

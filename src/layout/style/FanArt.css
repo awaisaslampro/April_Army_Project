@@ -1,0 +1,54 @@
+    .fanArtUpload_btnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -13px;
+    overflow: hidden;
+    margin-bottom: -10px;
+    }
+    .fanArtUpload_btn{
+        border-radius: 30px;
+        background-color: #28a745;
+        color: #ffffffff;
+        padding: 10px 17px;
+        text-align: center;
+        /* font-weight: bold; */
+        cursor: pointer;
+        border: 2px solid #4e4b4b52;
+        text-transform: uppercase;
+        text-shadow: -1px 1px #000;
+        font-size: 12px;
+    }
+
+    .fanArtUpload_btn:hover {
+        background-color: #0b7b25;
+        border: 2px solid #10101061;
+    }
+
+
+
+
+
+
+    /* Media Query */
+@media only screen and (max-width: 768px){
+    .fanArtUpload_btn{
+        font-size: 11px;
+    }
+}
+
+
+
+    @media only screen and (max-width: 507px){
+    .fanArtUpload_btn {
+    font-size: 10px;
+    padding: 10px 15px;
+}
+}
+
+@media only screen and (max-width: 407px){
+.fanArtUpload_btn {
+    font-size: 10px;
+    padding: 9px 11px;
+}
+}

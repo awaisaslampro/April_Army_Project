@@ -1,0 +1,61 @@
+.downloadimg{
+
+}
+
+.downloadGame{
+    margin-top: 73px;
+}
+
+.downloadSources{
+   display: flex;
+   justify-content: space-around;
+}
+
+.downloadIcons{
+    font-size: 65px;
+    color: white;
+    cursor: pointer;
+}
+.showRequirement{
+    text-align:  center;
+}
+.showRequirement h3{
+    color: white;
+    font-size: 22px;
+}
+.downloadSources h3{
+    color: white;
+    font-size: 32px;
+    margin-top: 0px;
+    margin-bottom: 13px;
+}
+.gameHeader h3{
+    font-size: 33px;
+}
+.showSystem{
+    border: none;
+    border-radius: 3px;
+    padding: 17px 77px;
+    font-size: 24px;
+    color: #eeeeee;
+    background-color: #191818;
+}
+
+
+/* Media Query */
+@media only screen and (max-width: 768px){
+.showSystem{
+    padding: 13px 55px;
+    font-size: 15px;
+}
+.showRequirement h3 {
+    font-size: 15px;
+}
+
+}
+@media only screen and (max-width: 403px){
+
+.showRequirement h3 {
+    font-size: 15px;
+}
+}

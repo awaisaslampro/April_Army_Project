@@ -1,0 +1,42 @@
+
+.footerMainContainer{
+	clear: both;
+margin-top: auto;
+}
+
+/* .seperateFooterContainer */
+.topAwardsContainer
+{
+
+}
+/* .seperatedFooter{
+    position: absolute;
+    width: 100%;
+    bottom: 0;    
+} */
+.seperateFooter{
+	display: flex;
+	flex-wrap: nowrap;
+   justify-content: space-between;
+   margin-top: 33px;
+
+   background-color: black; 
+}
+.seperateFooter >div{
+	color: white;
+}
+.footerLink{
+	text-decoration: none;
+	color: white;
+	right: 22;
+	bottom: 0;
+}
+.footerCopyright{
+	margin-top: 11px;
+	margin-left: 7px;
+	 
+}
+.footerPrivacy{
+	margin-top: 11px;
+	margin-right: 7px;
+}

@@ -1,0 +1,47 @@
+.learn{
+    margin: 0px 0px 0px 7px;
+}
+
+.learn h3{
+    font-size: 17px;
+    color: white;
+    margin-bottom: 0px !important;
+}
+.playVideoContainer{
+    background-color:#131413;
+    margin-top: 103px;
+  
+    /* text-align: center;
+    padding: 28px 181px 11px 9px; */
+}
+.autoPlay{
+    width: 27px;
+}
+
+.leftTopVideo{
+	margin-left: 920px;
+    color: white;
+    margin-top: -940px;
+
+	
+	}
+	 .leftTopVideo li{
+		display: inline-block;
+        /* right: 0;
+        top:0; */
+
+     }
+     .playVideo{
+         width:67%;
+     }
+     .comment{
+         width: 67%;
+     }
+	 
+ .lightbox{
+     width: 255px;
+ }
+
+.leftSection{
+    margin: -26px 99px 0px 124px;
+}

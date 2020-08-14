@@ -1,0 +1,742 @@
+h5,h6{
+  margin: 0;
+}
+.song h6, h5{
+  font-size: 17px !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.wcContainer img{
+  width: 595px;
+  height: 453px;
+
+  /* margin-top: -247px; */
+}
+
+.musicTopContainer{
+  margin-top: 103px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 13px;
+}
+
+/* Audio Controls */
+
+
+.audioPlayer {
+  background: none;
+  text-align: center;
+  font-family: FontAwesome;
+  color: #fff;
+  font-size: 27px;
+  line-height: 26px;
+  transform: translate(-50%, 0);
+  z-index: 10;
+  transition: all 0.3s ease-in;
+  border-spacing: 0;
+  left: 48%;
+
+  width: 317px;
+  height: 35px;
+  position: absolute;
+  bottom: 7px;
+ 
+}
+
+.audioPlayer td {
+  width: 72px;
+}
+
+
+/* Adding Scroller */
+.scroll{
+
+  	/* float: right; */
+    /* width: 65px; */
+    /* width: 565px; */
+
+
+    /* overflow-y: hidden;
+    overflow-x: hidden;
+
+    height: 566px;
+    padding : 0px; */
+
+
+    /* margin-top: -247px; */
+}
+
+.scroll{
+  margin-top: -395px;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  height: 549px;
+}
+.scroll::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+
+
+/* 
+#audioListScrollerStyle::-webkit-scrollar-track
+{
+  border-radius: 7px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+
+}
+
+#audioListScrollerStyle::-webkit-scrollar
+{
+	width: 7px;
+	background-color: #d4d4d4;
+}
+
+
+#audioListScrollerStyle::-webkit-scrollar-thumb
+{
+	border-radius: 7px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #555;
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* PRESS THE MENU BUTTON FOR ANIMATION */
+/* PRESS PLAY BUTTON TO audioListEN THE DEMO SONG */
+
+/* As seen on: "https://dribbble.com/shots/2144866-Day-5-Music-Player-Rebound/" */
+
+/* THANK YOU! */
+
+td .checkboxHeart {
+  visibility: hidden;
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+}
+
+label.main:before {
+  position: absolute;
+  top: 23px;
+  left: 23px;
+  font-family: FontAwesome;
+  
+  content: '\f0c9';
+  color: #959595;
+  font-size: 16px;
+  line-height: 16px;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.3s ease-in;
+}
+
+label.main:hover:before {
+  color: #bbb;
+}
+
+.screen label.main:before {
+  color: #ff564c;
+  /* transition: all 0.3s ease-in; */
+}
+
+
+
+.audioList {
+  border-spacing: 0px 2px;
+  visibility: hidden;
+  opacity: 0;
+  transform-origin: 0% 0%;
+  transform: scale(0.1, 0.1);
+  transition: all 0.3s ease-in;
+
+  width: 595px;
+  /* height: 754px; */
+}
+
+.audioList tr {
+  transform-origin: 0% 50%;
+  height: 50px;
+  /* text-align: center; */
+  background-color: #21212170;
+  text-indent: 8px;
+}
+
+.audioList tr:hover {
+  background: #212121d4;
+  cursor: pointer;
+ 
+}
+
+.title {
+  /* width: 215px; */
+  text-align: left;
+  text-indent: 15px;
+  transition: all 0.11s ease-in;
+}
+.length h5{
+  /* margin-top: 16px; */
+}
+
+.title h6{
+  /* margin-top: 16px ; */
+}
+
+.audioList tr:hover .title {
+  /* padding-left: 5px;
+  width: 210px;
+  transition: all 0.11s ease-in; */
+}
+
+.screen .audioList {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1, 1);
+  /* transition: all 0.3s ease-in; */
+}
+
+
+label.zmr:before {
+  font-family: FontAwesome;
+  content: "\f08a";
+  color: #777;
+  font-size: 15px;
+  line-height: 15px;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.15s linear;
+}
+
+td > #heart1:checked ~ label.zmr:before {
+  content: "\f004";
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+
+td > #heart2:checked ~ label.zmr:before {
+  content: "\f004";
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+
+td > #heart3:checked ~ label.zmr:before {
+  content: "\f004";
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+
+td > #heart4:checked ~ label.zmr:before {
+  content: "\f004";
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+
+td > #heart5:checked ~ label.zmr:before {
+  content: "\f004";
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+
+td > #heart6:checked ~ label.zmr:before {
+  content: "\f004";
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+
+td > #heart7:checked ~ label.zmr:before {
+  content: "\f004";
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+
+td > #heart8:checked ~ label.zmr:before {
+  content: "\f004";
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+
+td > #heart9:checked ~ label.zmr:before {
+  content: "\f004";
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+
+td > #heart10:checked ~ label.zmr:before {
+  content: "\f004";
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+
+td > #heart11:checked ~ label.zmr:before {
+  content: "\f004";
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+
+td > #heart12:checked ~ label.zmr:before {
+  content: "\f004";
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+
+td > #heart13:checked ~ label.zmr:before {
+  content: "\f004";
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+
+td > #heart14:checked ~ label.zmr:before {
+  content: "\f004";
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+
+td > #heart15:checked ~ label.zmr:before {
+  content: "\f004";
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+
+td > #heart16:checked ~ label.zmr:before {
+  content: "\f004";
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+
+td > #heart17:checked ~ label.zmr:before {
+  content: "\f004";
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+
+.screen > #magicButton:checked ~ .bar {
+  top: 119px;
+  left: 126px;
+  transform: scale(0.6875, 0.6875);
+  transition: all 0.3s ease-in;
+}
+
+.audioInfo {
+ /* height: 13px;
+  text-align: center;
+  background: #212121f2;
+  border-right: 1px solid gray;
+  border-top: none; */
+ 
+}
+
+.screen > #magicButton:checked ~ .audioInfo {
+  top: 66px;
+  left: 126px;
+  text-align: left;
+  transition: all 0.3s ease-in;
+}
+
+.screen > #magicButton:checked ~ .audioInfo h4 {
+  margin-left: 0;
+  font-size: 16px;
+  color: #111111;
+  transition: all 0.3s ease-in;
+}
+
+.screen .audioPlayer {
+  /* bottom: 4px;
+  
+  left: -44px;
+  transform: scale(0.45, 0.45);
+  transition: all 0.3s ease-in;
+
+  left: 150px;
+    top: 678px; */
+}
+
+
+.backward:before {
+  content: "\f04a";
+  cursor: pointer;
+  transition: all 0.15s linear;
+}
+
+.play:before {
+  content: "\f04b";
+  cursor: pointer;
+  transition: all 0.15s linear;
+}
+
+.forward:before {
+  content: "\f04e";
+  cursor: pointer;
+  transition: all 0.15s linear;
+}
+
+.backward:hover:before {
+  color: #bbb;
+  transition: all 0.15s linear;
+}
+
+.play:hover:before {
+  color: #bbb;
+  transition: all 0.15s linear;
+}
+
+.forward:hover:before {
+  color: #bbb;
+  transition: all 0.15s linear;
+}
+
+td > #play:checked ~ label.play:before {
+  content: "\f04c";
+  transition: all 0.15s linear;
+}
+
+
+
+
+
+
+
+.love:before {
+  content: "\f08a";
+  cursor: pointer;
+  transition: all 0.15s linear;
+}
+
+.shuffle:before {
+  content: "\f074";
+  cursor: pointer;
+  transition: all 0.15s linear;
+}
+
+.repeat:before {
+  content: "\f01e";
+  cursor: pointer;
+  transition: all 0.15s linear;
+}
+
+.options:before {
+  content: "\f141";
+  cursor: pointer;
+  transition: all 0.15s linear;
+}
+
+.love:hover:before {
+  color: #bbb;
+  transition: all 0.15s linear;
+}
+
+.shuffle:hover:before {
+  color: #bbb;
+  transition: all 0.15s linear;
+}
+
+.repeat:hover:before {
+  color: #bbb;
+  transition: all 0.15s linear;
+}
+
+.options:hover:before {
+  color: #bbb;
+  transition: all 0.15s linear;
+}
+
+td > #love:checked ~ label.love:before {
+  content: "\f004";
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+
+td > #shuffle:checked ~ label.shuffle:before {
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+
+td > #repeat:checked ~ label.repeat:before {
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+
+.screen > #magicButton:checked ~ .footerLower {
+  bottom: -60px;
+  transition: all 0.3s ease-in;
+}
+
+
+audio {
+  visibility: hidden;
+}
+
+
+.musicMiddleSeperator{
+   
+}
+.musicMiddleSeperator hr{
+    border: 0;
+    clear: both;
+    display: block;
+    width: 75%;
+    background-color: #ffffff10;
+    height: 1px;
+}
+
+
+
+
+
+/* Second Section */
+/* Music Info */
+.musicDescriptionDivider{
+  display: flex;
+  margin-top: -355px;
+}
+.musicDescriptionDivider>div{
+  /* float: left; */
+    width: 25%;
+    padding: 10px;
+}
+.worldsCollide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.worldsCollide img{
+  width: 140px;
+  padding: 10px;
+  filter: drop-shadow(0px 0px 20px rgba(255, 255, 255, 0.4));
+}
+.worldsCollide h3{
+  /* text-align: center; */
+    font-family: arial;
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-shadow: #000000 -1px 1px 0px;
+}
+.worldsCollide p{
+  font-family: arial;
+    font-size: 12px;
+    color: #b0b0b0;
+    padding: 5px 8px 5px 8px;
+    font-weight: lighter;
+    /* text-align: center; */
+    color: #EEDC82;
+}
+
+
+
+
+
+/* Sond Description */
+.worldsCollideDescription{
+  background-color: #21212190;
+  margin: auto;
+  border-radius: 7px;
+  border: 1px solid #ffffff10;
+  height: auto;
+  width: 100%;
+  z-index: 0;
+}
+.worldsCollideSeperator{
+  border: 0;
+  clear: both;
+  margin: 0;
+  display: block;
+  width: 75%;
+  background-color: #ffffff10;
+  height: 1px;
+}
+
+/* button */
+.accordian{
+  background-color: #00000000;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 15px 17px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.accordian:hover:after {
+  content: '\002B';
+  color: #ffffff;
+  font-weight: bold;
+  float: right;
+}
+
+.accordian:hover {
+  background-color: #212121d4;
+  padding-left: 5px;
+}
+
+
+/* Adding Scroller */
+.collidePanel{
+  padding: 0 10px;
+    background-color: #00000000;
+    /* max-height: 0; */
+    height: 150px;
+    transition: max-height 0.5s ease-out;
+}
+
+
+
+
+
+
+.collidePanel p{
+  text-align: left;
+  font-family: arial;
+  font-size: 12px;
+  color: #b0b0b0;
+  padding: 5px 8px 5px 8px;
+  font-weight: lighter;
+  text-shadow: -1px 1px #000000;
+}
+/* 
+#descriptionActive{
+  display: none;
+}
+#descriptionActively{
+  display: none;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Scroller Style */
+
+.scrollbar
+{
+  	float: right;
+    /* width: 65px; */
+    overflow-y: scroll;
+    
+   
+}
+
+.force-overflow
+{
+	/* min-height: 450px; */
+}
+
+
+.style-2::-webkit-scrollbar-track
+{
+  border-radius: 7px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+
+}
+
+.style-2::-webkit-scrollbar
+{
+	width: 7px;
+	background-color: #d4d4d4;
+}
+
+.style-2::-webkit-scrollbar-thumb
+{
+	border-radius: 7px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+/* Media Query */
+@media only screen and (max-width:768px){
+  .musicDescriptionDivider> div{
+      width: 100%;
+}
+.musicDescriptionDivider{
+  flex-direction: column;
+  
+}
+.musicDescriptionDivider{
+  margin-top: 0;
+}
+
+.musicTopContainer{
+  flex-direction: column;
+}
+}
+
+@media only screen and (max-width:469px){
+  .scroll {
+   
+    width: 441px;
+}
+
+}
+
+@media only screen and (max-width:469px){
+  .scroll {
+   
+    width: 419px;
+}
+}
+
+@media only screen and (max-width:412px){
+  .scroll {
+   
+    width: 383px;
+}
+}
+@media only screen and (max-width:384px){
+  .scroll {
+   
+    width: 343px;
+}
+}
+
+@media only screen and (max-width:360px){
+  .scroll {
+   
+    width: 328px;
+}
+}
+
+@media only screen and (max-width:337px){
+  .scroll {
+   
+    width: 307px;
+}
+}
+
+@media only screen and (max-width:320px){
+  .scroll {
+   
+    width: 300px;
+}
+}

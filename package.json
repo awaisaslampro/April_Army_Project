@@ -1,0 +1,51 @@
+{
+  "name": "react_task_army",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.6.0",
+    "@material-ui/icons": "^4.5.1",
+    "bootstrap": "^4.3.1",
+    "flexbox-react": "^4.4.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1",
+    "mdbreact": "^4.22.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.11.0",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-dom": "^16.11.0",
+    "react-grid-gallery": "^0.5.5",
+    "react-image-lightbox": "^5.1.1",
+    "react-mdl": "^1.11.0",
+    "react-responsive-carousel": "^3.1.51",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.3.0",
+    "react-slick": "^0.25.2",
+    "react-sticky-footer": "0.1.0-rc3",
+    "semantic-ui-react": "^0.88.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "jss": "^9.8.7"
+  }
+}

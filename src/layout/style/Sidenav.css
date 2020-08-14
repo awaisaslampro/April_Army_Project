@@ -1,0 +1,178 @@
+/********** Top Navbar *************/
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  overflow: hidden;
+  background-color: rgb(27, 26, 26);
+  box-shadow: 4px 3px 8px #000000;
+  height: 83px;
+}
+.navBars{
+  font-size: 15px;
+}
+
+/********** Top Search bar *************/
+
+.searchbarForm .searchbarInsideText{
+  margin-right: 17px;
+  width: 10px;
+  box-sizing: border-box;
+  border: 1px solid #0e0e0e;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: rgb(58, 56, 56);
+  box-shadow: 0px 5px 8px 0px #000000;
+  float: right;
+  color: #ccc6c6;
+  cursor: pointer;
+
+  background-image: url("https://img.icons8.com/search");
+  /* background-position: 10px 10px;  */
+  background-repeat: no-repeat;
+  padding: 2px 0px 2px 25px;
+  background-size: 20px 20px;
+  
+  transition: width 0.4s ease-in-out;
+
+}
+.searchbarForm{
+/* width: 333px */
+}
+
+
+.searchbarForm .searchbarInsideText:focus {
+  width: 183px;
+  padding-right: 7px;
+}
+
+
+/*/////////////////  Sidebar   /////////*/
+#sidebar-wrapper{
+    z-index:1;
+    position: absolute;
+    top: 83px;
+    width:0;
+    height:100%;
+    overflow-y:hidden;
+    background: black;
+    /* opacity:0.9; */
+      transition:all .2s;
+      display:flex;
+      align-items:center;
+  }
+  .sidernavContainer
+  {
+    height: 100%;;
+  }
+  .sidenavLogo {
+    width: 100%;
+    /* height: 533px; */
+    height: 100%;
+    padding: 0px 0px 0px 35px;
+    /* opacity: 1 ; */
+    background-image: url(/assets/img/siderSinger1.png);
+  
+    /* background-blend-mode: soft-light; */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+  }
+  .sidenavLogo a{
+    margin: 0;
+    line-height: 39px ;
+    letter-spacing: 0 ;
+    /* opacity: 1.57 ; */
+    color: #f8f9fa ;
+    font-weight: bold ;
+    padding: 15px ;
+    font-size: 15px;
+  }
+  .sidenavLogo img{
+      width: 10%;
+  }
+  .sidernavLogo{
+    padding: 17px 30px 45px 27px
+   
+  }
+
+
+  /* Main Content */
+  #page-content-wrapper{
+    width: 100%;	
+    position: absolute;
+    padding:15px;
+      /* transition:all .2s; */
+  }
+  
+  #menu-toggle{
+      /* transition:all .2s; */
+      /* font-size:2em; */
+  }
+  /* Change the width of the sidebar to display it*/
+  #wrapper.menuDisplayed #sidebar-wrapper{
+    width:217px;
+  }
+  
+  #wrapper.menuDisplayed #page-content-wrapper{
+    /* padding-left:250px; */
+  }
+  
+  /* Sidebar styling */
+  .sidebar-nav{
+    padding:0;
+    list-style:none; 
+      /* transition:all .5s; */
+      width:100%;
+      text-align:center;
+  }
+  
+  .sidebar-nav li{
+    line-height:40px;  
+      width:100%;
+      /* transition:all .5s; */
+      padding:10px;
+  }
+  
+  .sidebar-nav li a {
+    display:block;
+    text-decoration:none;
+    color:#ddd;
+  }
+  
+  .sidebar-nav li:hover{
+    /* background:#846bab; */
+  }
+
+  /* Toggle Button */
+  .sidenavToggle{
+   margin-left: 17px;
+    margin-bottom: 0;
+    padding: 5px 7px;
+    box-shadow: 0px 5px 8px 0px #000000;
+    background-color: rgb(58, 56, 56);
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+   
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+  /* Toggle Button */
+
+  .glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  

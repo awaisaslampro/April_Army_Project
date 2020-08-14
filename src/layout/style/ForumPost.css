@@ -1,0 +1,278 @@
+
+
+.forumPostPost {
+    background: linear-gradient(90deg, #000000f7, #381818);
+    border-radius: 2px;
+    box-shadow: 0 1px 2px #c9cccd;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.forumPostUserinfo {
+    width: 12%;
+    padding: 20px 0 15px 15px;
+    float: left;
+}
+.forumPoster{
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    margin-bottom: 7px;
+
+}
+.forumPostPost .forumPostAvatar {
+    width: 37px;
+    margin-left: 5px;
+}
+
+.forumPostAvatar img {
+    border-radius: 50%;
+}
+
+.forumPostPost .forumPostPosttext {
+    width: 88%;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    color: #989c9e;
+    font-size: 14px;
+    font-family: 'Open Sans Light', sans-serif;
+    line-height: 25px;
+
+    float: left;
+}
+
+
+.forumPostPosttext  p{
+    margin: 0 0 10px;
+}
+
+
+
+
+/* Post Lower Part */
+.forumPostPostinfobot {
+    border-top: solid 1px #524f4f;
+    line-height: 50px;
+    padding: 0 30px 0 89px;
+    clear: both;
+}
+.forumPostPostinfobot .forumPostLikeblock {
+    width: 120px;
+    float: left;
+}
+.forumPostPostinfobot .forumPostup {
+    color: #1abc9c !important;
+    font-size: 12px;
+}
+
+.forumPostPostinfobot .forumPostup:hover {
+    text-decoration: none;
+    color: #1de4bd !important;
+}
+.forumPostPostinfobot .forumPostup i, .forumPostdown i {
+    font-size: 20px;
+    padding-right: 10px;
+    font-family: FontAwesome;
+    font-weight: 100;
+}
+
+.forumPostPostinfobot .forumPostdown {
+    color: #db7a7a !important;
+    font-size: 12px;
+    margin-left: 20px;
+}
+.forumPostPostinfobot .forumPostdown:hover {
+    text-decoration: none;
+    color:  #f76565 !important;
+}
+
+.forumPostPostinfobot .forumPostprev {
+    width: 30px;
+    float: left;
+}
+.forumPostPostinfobot .forumPostprev .forumPostReply {
+    font-size: 18px;
+    color: #bdc3c7 !important;
+}
+.forumPostPostinfobot .forumPostprev .forumPostReply i{
+   
+}
+.forumPostPostinfobot .forumPostposted {
+    /* width: 300px; */
+    margin-left: 18px;
+    font-size: 12px;
+    color: #bdc3c7 !important;
+    float: left;
+}
+
+.forumPostPostinfobot .forumPostposted i {
+    font-size: 18px;
+    color: #bdc3c7 !important;
+    padding-right: 8px;
+    font-family: FontAwesome;
+    font-weight: 100;
+}
+
+
+
+.forumPostPostinfobot .forumPostnext {
+    width: 90px;
+    text-align: right;
+    float: right;
+}
+.forumPostPostinfobot .forumPostnext .forumPostFlagShare {
+    font-size: 18px;
+    color: #bdc3c7 !important ;
+}
+.forumPostPostinfobot .forumPostnext .forumPostFlagShare i {
+    padding-right: 18px;
+   
+}
+.forumPostnext .forumPostFlag{
+    font-size: 18px;
+    color: #bdc3c7 !important ;
+}
+.forumPostFlag i{
+    font-family: FontAwesome;
+    font-weight: 100;
+}
+
+
+/* Reply Post */
+.textwraper {
+    background-color: #f1f1f1;
+    border-radius: 2px;
+    padding: 18px;
+}
+
+.forumPosttextwraper textarea {
+    border: none;
+    box-shadow: none;
+    background-color: rgba(255,255,255,.15);
+    width: 100%;
+    border-radius: 3px;
+    resize: none;
+    color: #bfbfbf;
+    line-height: 1.1;
+    font-size: 16px;
+    height: 93px;
+}
+
+.forumPostPostinfobot label {
+    color: #bdc3c7;
+    font-size: 12px;
+}
+
+
+.forumNotechbox  {
+    width: 20px;
+    float: left;
+    margin-top: 3px;
+}
+.forumNotechbox  input {
+    width: 12px;
+    box-shadow: none;
+    margin-top: 8px;
+    border-color: #bdc3c7;
+}
+.forumPostreply {
+    font-size: 12px;
+    color: #bdc3c7;
+    display: block;
+    float: right;
+}
+
+
+.forumPostbtn-primary {
+    padding: 16px 23px;
+    color: #ffffff;
+    border: none;
+    font-size: 13px;
+    line-height: 0;
+    border-radius: 3px;
+    background-color: #1abc9c;
+    /* box-shadow: 0 2px 0 #1abc9c; */
+}
+.forumPostbtn-primary:hover{
+    background-color: #08e8bc;
+    margin-top: 3px;
+    /* box-shadow: 0 2px 3px 0px #1abc9c; */
+}
+
+
+
+
+
+
+
+
+/* Media Query */
+
+@media only screen and (max-width: 1198px){
+    .forumPostPostinfobot{
+       padding:0 30px 0 77px ;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .forumPostPost .forumPostPosttext{
+        padding-left: 19px;
+    }
+    .forumPostPostinfobot .forumPostposted{
+        margin-left: 7px;
+        margin-top: 8px;
+    }
+    .forumPostPostinfobot{
+        line-height: 2;
+    }
+    .forumPostPostinfobot .forumPostup i, .forumPostdown i{
+        line-height: 2;
+    }
+
+
+    .forumPostPostinfobot .forumPostnext{
+        width: 54px;
+        /* text-align: left; */
+        float: none;
+        /* left: 0; */
+        position: relative;
+        left: 0;
+    }
+}
+
+
+@media only screen and (max-width: 478px){
+    .forumPostPostinfobot .forumPostposted{
+        /* margin-left: 0px;
+    float: left;
+    position: relative;
+    left: -121px;
+    margin-top: 8px; */
+
+    /* margin-top: 38px; */
+
+    margin-top: 38px;
+    margin-left: -150px;
+
+
+    }
+}
+@media only screen and (max-width: 433px){
+    .forumPostPost .forumPostPosttext{
+        padding-left: 25px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .forumPostPost .forumPostPosttext{
+        padding-left: 33px;
+    }
+}
+
+
+
+@media only screen and (max-width: 322px){
+    .forumPostPostinfobot .forumPostposted{
+    margin-top: 0px;
+    margin-left: -122px;
+    }
+}

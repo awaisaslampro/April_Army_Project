@@ -1,0 +1,46 @@
+
+.post-slider{
+
+    position: relative;
+}
+
+.post-slider .next{
+    position: absolute;
+    top: 50%;
+    right: 30px;;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: black;
+}
+
+.post-slider .prev{
+    position: absolute;
+    top: 50%;
+    left: 30px;;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: black;
+}
+
+.post-slider .post-wrapper{
+    width: 90%;
+    margin: 0px auto;
+    height: 242px;
+    
+    overflow: hidden;
+    padding: 10px 0px 10px 0px;
+}
+
+.post-slider .post-wrapper .post{
+    width: 600px;
+    height: 250px;
+    display: inline-block;
+
+   margin: 0px 313px;
+    border-radius: 5px;
+
+}
+.post .slider-img{
+    
+    border: 5px;
+}

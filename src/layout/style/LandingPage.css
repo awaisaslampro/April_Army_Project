@@ -1,0 +1,558 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+.topHomePage{
+	margin-top: 103px;
+}
+.innerMain{
+	width:100% !important;
+}
+.midLogo{
+	position: relative;
+}
+.logo{
+	position: fixed;
+	right: 50%;
+	left: 50%;
+}
+.logo img{
+	width: 13%;
+}
+.devicesImage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.devicesText{
+	text-align: center;
+	color: white;
+	font-size: 18px;
+}
+.para{
+	margin-top: 53px;
+	text-align: center;
+	color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.para h3{	
+	font-size: 21px;
+	font-weight: bold;
+}
+/*Subscribers*/
+.subscribers {
+	display: flex;
+	justify-content: center;
+	margin-top: 133px;
+}
+.subscribers h3{
+	color: white;
+	font-size: 21px;
+	font-weight: bold;
+	/*margin: 7px;*/
+}
+.circle{
+	width: 7%;
+	margin: 3px;
+
+}
+.subPara{
+	margin-top: 0;
+}
+.box p{
+	color: white;
+}
+.bar{
+	margin-top: 0;
+	display: flex;
+	flex-direction: row;
+}
+.bar img{
+	width: 33%;	
+}
+
+.top{
+	 display: flex;
+  justify-content: center;
+}
+.top >div{
+	 width: 323px;
+	 margin: 13px;
+}
+/*///////////////////////////////////////////////////////////////////////////////////*/
+.midPage{
+	background-color: black;
+	opacity: 0.9;
+	width: 100%;
+	height: 997px
+}
+.document{
+	margin-top:133px;
+}
+.document p{
+	color: black;
+}
+.footer{
+	display: flex;
+	flex-wrap: nowrap;
+   justify-content: space-between;
+   margin-top: 33px;
+   /*padding: 13px;*/
+   background-color: black; 
+   bottom: 0;
+}
+.footer >div{
+	color: white;
+}
+.footerLink{
+	text-decoration: none;
+	color: white;
+	right: 22;
+	bottom: 0;
+}
+.footerPara{
+	margin-top: 11px;
+	margin-left: 7px;
+	 
+}
+.footerLinks{
+	margin-top: 11px;
+	margin-right: 7px;
+}
+.mdl-cell{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.mdl-grid{
+	padding: 0 !important;
+}
+  /* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+  /* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+  /* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+  .pricing-table {
+	  
+    margin-top: 115px;
+	text-align: center;
+  }
+  .pricing-table h3{
+	color: white;
+	font-size: 21px;
+	font-weight: bold;
+}
+.gameHeading h3{
+	color: white;
+	font-size: 21px;
+	font-weight: bold;
+	margin:auto;
+}
+.gamesLink {
+	color: #3563b1fa;
+	font-size: 13px;
+	font-weight: bold;
+}
+  .plan {
+	display: inline-block;
+	margin: 10px 0px;
+	font-family: 'Lato', Arial, sans-serif;
+  }
+  /* 
+  .plan:hover{
+	transform: scale(1.05);
+	transition: all .3s;
+	z-index: 50;
+	
+  } */
+  .plan-inner {
+	background-color: white;
+	margin: 0 auto;
+	min-width: 280px;
+	max-width: 100%;
+	position:relative;
+  }
+  .entry-title {
+	margin-bottom: -40px;
+	height: 140px;
+	position: relative;
+	text-align: center;
+  }
+  .entry-middle{
+	height: 143px;
+	position: relative;
+	text-align: center;
+  }
+  .price{
+	color: white;
+  }
+  .entry-title .price {
+	position: absolute;
+	bottom: 33px;
+	box-shadow:2px 3px 3px 0 rgba(0,0,0,0.2), 
+	0 6px 20px 0 rgba(0,0,0,0.19);
+	background-image: linear-gradient(#2B5D7E,#57B3F2);
+	height: 95px;
+	width: 95px;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	border-radius: 50px;
+	line-height: 80px;
+	font-size: 28px;
+	font-weight: 700;
+  }
+  .entry-middle .price-middle{
+	box-shadow:2px 3px 3px 0 rgba(0,0,0,0.2), 
+	0 6px 20px 0 rgba(0,0,0,0.19);
+	position: absolute;
+	bottom: 0px;
+	height: 109px;
+	width: 109px;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	border-radius: 50%;
+	/* border: 5px solid #fff; */
+	line-height: 80px;
+	font-size: 28px;
+	font-weight: 700;
+  }
+  .price span {
+	position: absolute;
+	font-size: 12px;
+	bottom: -8px;
+	left: 27px;
+	/* font-weight: 400; */
+  }
+  .price-middle span{
+	position: absolute;
+	font-size: 15px;
+	  bottom: -2px;
+	left: 30px;
+	/* font-weight: 400; */
+  }
+  .entry-content ul {
+	color: #2376ac;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+  }
+  
+  .entry-content li {
+	font-weight: bold;
+	border-bottom: 2px solid #3772aaa1;
+	padding: 0px;
+	margin: 15px 45px;
+  }
+  .middle-entry-content ul{
+	color: white;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+  }
+  .middle-entry-content li {
+	font-weight: bold;
+	border-bottom: 2px solid #eee;
+	padding: 0px;
+	margin: 15px 45px;
+  }
+  /* 
+  .entry-content li:last-child {
+	border: none;
+  } */
+  
+  .priceButton {
+	padding: 1em 0 !important;
+	text-align: center !important;
+  }
+  .right-btn .priceButtonLink{
+	border-bottom-right-radius: 33px !important;
+  }
+  .left-btn .priceButtonLink{
+	border-bottom-left-radius: 33px !important;
+  }
+  .middle-btn .middleButtonLink{
+	
+  }
+  .priceButton .priceButtonLink{
+	/* border-radius: 7px !important; */
+	background-image: linear-gradient(#2B5D7E,#57B3F2) !important;
+	padding: 8px 37px !important;
+	color: #fff !important;
+	
+	box-shadow:2px 3px 3px 0 rgba(0,0,0,0.2), 
+	0 6px 20px 0 rgba(0,0,0,0.19) !important;
+	font-weight: 700 !important;
+	text-decoration: none !important;
+  }
+  .middle-btn{
+	padding: 1em 0;
+	text-align: center;
+  }
+  .middle-btn .middleButtonLink{
+  border-radius: 7px !important;
+  background:white !important;
+  padding: 8px 37px !important;
+  color: #2376ac !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+  box-shadow:2px 3px 3px 0 rgba(0,0,0,0.2), 
+  0 6px 20px 0 rgba(0,0,0,0.19) !important;
+  }
+  .ultimite .price {
+	background-image: linear-gradient(#2B5D7E,#57B3F2);
+  }
+  .leftPricing{
+  border-top-right-radius: 50px;
+  }
+  .leftPricing{
+	border-bottom-right-radius: 115px;
+  }
+  .rightPricing{
+	border-bottom-left-radius: 115px;
+  }
+  .rightPricing{
+	border-top-left-radius: 50px;
+  }
+  .plan-most{
+	border-radius: 43px;
+	height: 647px;
+	background-image: linear-gradient(#2B5D7E,#57B3F2);
+	margin: 0 auto;
+	min-width: 280px;
+	max-width: 100%;
+	position:relative;
+  
+  }
+  .entry-middle .higher{
+	color: #2376ac;
+	background-color: white !important  ;
+  }
+  .music{
+	padding-right: 132px;
+  }
+  .forum{
+	padding-right: 132px;
+  }
+  .images{
+	padding-right: 128px;
+  }
+  .posters{
+	padding-right: 125px;
+  }
+  .fan{
+	padding-right: 119px;
+  }
+  .videos{
+	padding-right: 130px;
+  }
+  .game{
+	padding-right: 87px;
+  }
+  .free{
+	padding-right: 98px;
+  }
+  .polls{
+	padding-right: 144px;
+  }
+  /*/////////////////////////////////    Media Query   //////////////////////////////////// */
+/*///////////////////////////////    MEDIA QUERY     ///////////////////////// */
+@media only screen and (max-width: 990px){
+	.pricing-table {
+		margin-top: 207px;
+	}
+}
+@media only screen and (max-width: 860px){
+	.pricing-table {
+		margin-top: 243px;
+	}
+}
+@media only screen and (max-width: 860px){
+	.pricing-table {
+		margin-top: 243px;
+	}
+}
+@media only screen and (max-width: 796px){
+	.pricing-table {
+		margin-top: 303px;
+	}
+}
+@media only screen and (max-width: 780px){
+	.pricing-table {
+		margin-top: 283px;
+	}
+}
+
+
+/*  */
+@media only screen and (max-width: 857px){
+  
+	.plan {
+	  display:flex;
+	}
+	}  
+/* Mobile View */
+@media only screen and (max-width: 768px){
+	.pricing-table {
+		margin-top: 287px;
+	}
+	.devicesText {
+		font-size: 17px;
+	  }
+	.para h3 {
+		font-size: 17px;
+	}
+	.pricing-table h3{
+		font-size: 17px;
+	}
+	.gameHeading h3{
+		font-size: 17px;
+	
+	} 
+	  }
+
+	  @media only screen and (max-width: 766px){
+		.pricing-table {
+			margin-top: 517px;
+		}
+	}
+	@media only screen and (max-width: 696px){
+		.pricing-table {
+			margin-top: 533px;
+		}
+	}
+	@media only screen and (max-width: 682px){
+		.pricing-table {
+			margin-top: 585px;
+		}
+	}
+	@media only screen and (max-width: 666px){
+		.pricing-table {
+			margin-top: 557px;
+		}
+	}
+
+	@media only screen and (max-width: 564px){
+
+		.pricing-table {
+			margin-top: 597px;
+		  }
+		 
+		}
+	@media only screen and (max-width: 556px){
+
+		.pricing-table {
+			margin-top: 597px;
+		  }
+		 
+		}
+
+		@media only screen and (max-width: 530px){
+
+			.pricing-table {
+				margin-top: 657px;
+			  }
+			 
+			}
+
+
+		@media only screen and (max-width: 514px){
+
+			.pricing-table {
+				margin-top: 767px;
+			  }
+			}
+
+			@media only screen and (max-width: 500px){
+				.pricing-table {
+					margin-top: 797px;
+				  }	 
+				}
+			@media only screen and (max-width: 492px){
+
+				.pricing-table {
+					margin-top: 736px;
+				  }
+				  .devicesText {
+					font-size: 16px;
+				  }
+				  .para h3 {
+					font-size: 16px;
+				}
+				  .pricing-table h3{
+					font-size: 16px;
+				}
+				.gameHeading h3{
+					font-size: 16px;
+				} 
+				}
+				.para h3{
+					margin-bottom: 0px;
+				}
+				@media only screen and (max-width: 482px){
+
+					.pricing-table {
+						margin-top: 760px;
+					  }
+					}
+				@media only screen and (max-width: 462px){
+
+					.pricing-table {
+						margin-top: 839px;
+					  }
+					}
+					
+				@media only screen and (max-width: 436px){
+
+					.pricing-table {
+						margin-top: 836px;
+					  }
+					}
+			
+				@media only screen and (max-width: 418px){
+					.pricing-table {
+						margin-top: 939px;
+					  }
+					  .footerPara p, .footerLinks p{
+						  font-size: 11px;
+					  }
+
+					}
+					@media only screen and (max-width: 382px){
+						.pricing-table {
+							margin-top: 950px;
+						  }
+					}
+					@media only screen and (max-width: 370px){
+						.pricing-table {
+							margin-top: 1037px;
+						  }
+					}
+					@media only screen and (max-width: 364px){
+						.pricing-table {
+							margin-top: 990px;
+						  }
+					}
+					@media only screen and (max-width: 358px){
+						.homeSliderParagraph
+						{
+							font-size: 14px;
+						}
+					}
+
+					@media only screen and (max-width: 340px){
+						.mainPara{
+							margin-bottom: 0px;
+						}
+					}
+
+	
+  
+ 
+
+
+

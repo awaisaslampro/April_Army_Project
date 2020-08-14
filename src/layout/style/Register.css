@@ -1,0 +1,207 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body{
+  margin: 0;
+  padding: 0;
+ font-family: sans-serif;
+  background-color:grey;
+  
+}
+.flexContainer{
+  display: flex;
+  justify-content: center;
+ }
+.flexContainer > div{
+  width: 277px;
+  margin: 10px;
+}
+
+
+.flex{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.flex >div{
+ margin-top: 20px;
+ background-color: white;
+ border-radius: 23px;
+ width: 687px;
+ height: 543px;
+ /* height: 521px;    */
+}
+.flexDiv h3{
+color: #3486bd;
+margin:7px;
+}
+
+.textBox{
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  /*font-size: 20px;*/
+  padding: 10px 30px;
+  margin: 15px 0px;
+  border: 1px solid #2432b1;
+  border-radius: 5px;
+}
+.textBox i{
+  width: 26px;
+  float: left;
+  text-align: center;
+  color:#6C9BBA;
+}
+.textBox input{
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 17px;
+  width: 80%;
+  float: left;
+  margin: 0px;
+}
+.registerbutton{
+  width: 33%;
+  color: white;
+  border:none;
+  background-image: linear-gradient(#2B5D7E,#57B3F2);
+  
+  border-radius: 3px ;
+  padding: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 12px 0;
+  box-shadow:2px 3px 3px 0 rgba(0,0,0,0.2), 
+  0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.registerbutton:hover{
+  box-shadow: 2px 3px 3px 0 rgba(0, 0, 0, 0.22), 
+  0 6px 20px 0 rgba(63,81,181);
+  color:white;
+}
+
+.form-center{
+  text-align: center;
+}
+/*////////////////////////////////////  Media Query  ////////////////////////////////////*/
+@media screen and (min-width: 1024px)  {
+  .flex >div {
+
+    height: 517px;
+}  
+}
+@media screen and (min-width: 768px) and (max-width: 1024px)  {
+
+  .flex >div {
+      width: 633px;
+      height: 517px;
+  }  
+}
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+  .flex >div {
+    width: 533px;
+    height: 875px;
+}  
+  .flexContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   }
+   .textBox {
+    width: 119%;
+    padding: 9px 46px;
+    margin: 15px -20px;
+}
+}
+@media only screen and (min-width: 420px) and (max-width: 599px) {
+
+  .flex >div {
+    width: 383px;
+    height: 807px;
+}  
+
+  .flexContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   }
+
+   .textBox {
+    width: 107%;
+    padding: 7px 29px;
+    margin: 15px -10px;
+
+}
+.flexDiv h3 {
+font-size: 25px;
+margin: 0px;
+
+}
+
+}
+@media only screen and (max-width: 418px){
+
+  .flex >div {
+    width: 300px;
+    height: 603px;
+}  
+.textBox input{
+font-size: 13px;
+
+}
+  .flexContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   }
+
+   .textBox {
+    width: 91%;
+    padding: 3px 41px;
+    margin: 7px 13px;
+
+}
+
+.flexDiv h3 {
+  font-size: 20px;
+  margin: 0px;
+  
+  }
+  
+
+
+}
+
+/* @media only screen and (min-width: 420px) and (max-width: 767px) {
+  
+  .flex >div {
+    width: 623px;
+    height: 455px;
+}  
+.flexDiv h3 {
+  font-size: 21px;
+  margin:0px;
+}
+.signOption{
+  margin-top: -15px;
+}
+}
+
+@media only screen and (min-width: 420px) and (max-width: 656px){
+  .flex >div {
+    width: 603px;
+    height: 455px;
+} 
+.textBox {
+  padding: 1px 25px;
+  margin:7px 0;
+} */
+
+

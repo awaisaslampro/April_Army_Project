@@ -1,0 +1,229 @@
+
+.editProfile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.editProfile >div{
+    box-shadow: 7px 5px 9px 2px #090909;
+    border-radius: 7px;
+    background-color: #3f3d3d;
+    color: #c5bfbf;
+    height: 280px;
+    width: 280px;
+    border-top-right-radius: 43px;
+    border-top-left-radius: 43px;
+    margin: 115px 17px 0px 17px;
+}
+.topProfileHeader{
+    box-shadow: 0 4px 2px -2px #282828;
+    position: relative;
+}
+.profileHeader{
+    margin: 10px 25px;
+   
+}
+.topEditor{
+    position: absolute;
+    top: 11px;
+    right: 26px;
+}
+.fa-pencil-alt{
+    color: white;
+    cursor: pointer;  
+}
+.editIcon{
+    color: white;
+}
+.profileHeader h3{
+    margin: 0px;
+    font-size: 16px;
+    color: white;
+}
+.personalList ul{
+    list-style: none;
+}
+.personalList li{
+    margin: 10px 25px;
+}
+
+.name{
+    padding-right: 156px;
+    padding-left: 10px;
+    }
+
+.userName{
+    padding-right: 122px;
+    padding-left: 10px;
+}
+
+.email{
+    padding-right: 82px;
+    padding-left: 10px;
+}
+.phone{
+    padding-right: 118px;
+    padding-left: 10px;
+}
+/* //////////////////////////////////////////     Address Detail   ////////////////////////////////////*/
+
+.country{
+    padding-right: 141px;
+    padding-left: 10px;
+
+}
+.city{
+    padding-right: 166px;
+    padding-left: 10px;
+
+}
+
+.state{
+    padding-right: 158px;
+    padding-left: 10px;
+
+}
+.zip{
+    padding-right: 137px;
+    padding-left: 10px;
+
+}
+.address{
+    padding-right: 138px;
+    padding-left: 10px;
+
+}
+
+
+/* ///    Size   ///*/
+.shirtSize{
+    padding-right: 160px;
+    padding-left: 10px;
+}
+
+.pentSize{
+    padding-right: 160px;
+    padding-left: 10px;
+}
+
+/*///////////////////    Media Query   ////////////////// */
+/*///////////////////    Media Query   ////////////////// */
+
+@media only screen and (max-width:943px){
+    .editProfile >div {
+        margin: 115px 7px 0px 7px;
+
+    }
+}
+@media only screen and (max-width:885px){
+    .editProfile >div {
+        margin: 115px 4px 0px 4px;
+
+    }
+}
+@media only screen and (max-width:865px){
+      
+.name{
+    padding-right: 152px;
+    }
+
+.userName{
+    padding-right: 119px;
+}
+.email{
+    padding-right: 78px;
+}
+.phone{
+    padding-right: 116px;
+}
+/* //////  Address Detail  ////////*/
+.country{
+    padding-right: 139px;
+}
+.city{
+    padding-right: 164px;
+}
+
+.state{
+    padding-right: 156px;
+}
+.zip{
+    padding-right: 135px;
+}
+.address{
+    padding-right: 135px;
+}
+
+/* Shirt  */
+.shirtSize{
+    padding-right: 128px;
+}
+.pentSize{
+    padding-right: 128px;
+}
+}
+@media only screen and (min-width: 769px) and (max-width:856px){
+    .editProfile >div {
+        width: 257px;
+    }
+    /* Top Editor */
+    .topEditor {
+        right: 34px;
+    }
+    /* Personal Address */
+    .name{
+        padding-right: 122px;
+        }
+    .userName{
+        padding-right: 89px;
+    }
+    .email{
+        padding-right: 47px;
+    }
+    .phone{
+        padding-right: 84px;
+    }
+/* //////  Address Detail  ////////*/
+.country{
+    padding-right: 110px;
+}
+.city{
+    padding-right: 135px;
+}
+
+.state{
+    padding-right: 126px;
+}
+.zip{
+    padding-right: 105px;
+}
+.address{
+    padding-right: 106px;
+}
+/* Shirt  */
+.shirtSize{
+    padding-right: 128px;
+}
+.pentSize{
+    padding-right: 128px;
+}
+}
+@media only screen and (max-width:768px){
+
+    .editProfile{
+        flex-direction: column;
+        margin-top: 103px;
+    }
+    .editProfile >div {
+        margin: 9px 4px 0px 4px;
+}
+
+/* Shirt  */
+.shirtSize{
+    padding-right: 158px;
+}
+.pentSize{
+    padding-right: 158px;
+}
+}
+

@@ -1,0 +1,391 @@
+
+.audioTopContainer{
+    margin-top: 103px;
+/* padding-right: 15px; */
+padding-left: 17px;
+max-width: 100%;
+}
+
+.audioTabButtons {
+    align-items: center;
+    text-align: center;
+    width: auto;
+    padding: 10px;
+    overflow: auto;
+    white-space: nowrap;
+    border: 1px solid #ffffff00;
+    border-radius: 7px;
+    background-color: #ffffff00;
+}
+.audioTabButtons button {
+    color: white;
+    font-family: arial;
+    text-shadow: -1px 1px #00000090;
+    display: inline-block;
+    align-items: center;
+    background-color: #ffffff30;
+    border: 2px solid #ffffff20;
+    outline: none;
+    width: 200px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 13px;
+    padding: 13px;
+    border-radius: 20px;
+    box-shadow: -1px 1px 2px #00000080;
+    /* margin: 3px; */
+
+}
+.audioTabButtons button:hover{
+    border: 2px solid #ffffff;
+}
+.audioTabButtons h3{
+    margin: 33px 0px !important;
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 15px;
+    text-shadow: #000000 -1px 1px 0px;
+}
+
+.audioHeader{
+    color: #fff;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    margin-top: 43px;
+    text-shadow: #000000 -1px 1px 0px;
+}
+.scrollmenu {
+    background-color: #00000000;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px 0px;
+}
+.audioRectanglewc {
+    transition: transform .2s;
+    display: inline-block;
+    background-image: url(/assets/img/wc_bg_card.jpg);
+    background-size: 210px;
+    margin: 5px;
+    border-radius: 6px;
+    border: 1px solid #ffffff30;
+    height: 150px;
+    width: 210px;
+    z-index: 0;
+}
+.audioRectanglewc:hover{
+    border: 1px solid #ffffff70;
+    box-shadow: 0px 0px 20px #ffffff30;
+}
+.audioRectanglewc img{
+    width: 25%;
+    padding-top: 5px;
+    padding-left: 5px;
+    float: left;
+    -webkit-filter: drop-shadow(-1px 1px 2px rgba(0, 0, 0, 1));
+    filter: drop-shadow(-1px 1px 2px rgba(0, 0, 0, 1));
+}
+.audioRectanglewc h5{
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 6px;
+    margin: 0 auto;
+    text-shadow: -1px 1px #000000;
+}
+
+.audioRectanglewc p{
+    font-size: 12px;
+    color: grey;
+    margin-left: 6px;
+    margin-top: 5px;
+    font-weight: lighter;
+    text-align: left;
+    text-shadow: -1px 1px #000000;
+}
+.audioRectanglewc hr{
+    border: 0;
+    clear: both;
+    width: 90%;
+    background-color: #ffffff30;
+    height: 1px;
+    margin: 0em auto;
+}
+.fa-arrow-circle-down {
+    color: #fff !important;
+    -webkit-transition: -webkit-transform .5s ease-in-out;
+    transition: transform .5s ease-in-out;
+}
+.fa-arrow-circle-down:hover {
+    color: #C8C8C8 !important;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+
+.shadowfilter {
+    -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.9));
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.9));
+}
+.fa-lg {
+    font-size: 1.33333333em;
+    line-height: .75em;
+    vertical-align: -15%;
+}
+
+
+/*  */
+
+.rectangleltwk {
+    transition: transform .2s;
+    display: inline-block;
+    background-image: url(/assets/img/ltwk_bg_card.jpg);
+    background-size: 210px;
+    margin: 5px;
+    border-radius: 6px;
+    border: 1px solid #ffffff30;
+    height: 150px;
+    width: 210px;
+    z-index: 0;
+}
+.rectangleltwk:hover{
+    border: 1px solid #ffffff70;
+    box-shadow: 0px 0px 20px #ffffff30;
+}
+.rectangleltwk img{
+    width: 25%;
+    padding-top: 5px;
+    padding-left: 5px;
+    float: left;
+    -webkit-filter: drop-shadow(-1px 1px 2px rgba(0, 0, 0, 1));
+    filter: drop-shadow(-1px 1px 2px rgba(0, 0, 0, 1));
+}
+
+.rectangleltwk h5{
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 6px;
+    margin: 0 auto;
+    text-shadow: -1px 1px #000000;
+}
+
+.rectangleltwk p{
+    font-size: 12px;
+    color: grey;
+    margin-left: 6px;
+    margin-top: 5px;
+    font-weight: lighter;
+    text-align: left;
+    text-shadow: -1px 1px #000000;
+
+}
+
+.rectangleltwk hr{
+    border: 0;
+    clear: both;
+    width: 90%;
+    background-color: #ffffff30;
+    height: 1px;
+    margin: 0em auto;
+}
+
+
+/* Dead by April Audio */
+.rectangledba {
+    transition: transform .2s;
+    display: inline-block;
+    background-image: url(/assets/img/dba_bg_card.jpg);
+    background-size: 210px;
+    margin: 5px;
+    border-radius: 6px;
+    border: 1px solid #ffffff30;
+    height: 150px;
+    width: 210px;
+    z-index: 0;
+}
+.rectangledba:hover{
+    border: 1px solid #ffffff70;
+    box-shadow: 0px 0px 20px #ffffff30;
+}
+.rectangledba img{
+    width: 25%;
+    padding-top: 5px;
+    padding-left: 5px;
+    float: left;
+    -webkit-filter: drop-shadow(-1px 1px 2px rgba(0, 0, 0, 1));
+    filter: drop-shadow(-1px 1px 2px rgba(0, 0, 0, 1));
+}
+.rectangledba h5{
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 6px;
+    margin: 0 auto;
+    text-shadow: -1px 1px #000000;
+}
+
+.rectangledba p{
+    font-size: 12px;
+    color: grey;
+    margin-left: 6px;
+    margin-top: 5px;
+    font-weight: lighter;
+    text-align: left;
+    text-shadow: -1px 1px #000000;
+}
+.rectangledba hr{
+    border: 0;
+    clear: both;
+    width: 90%;
+    background-color: #ffffff30;
+    height: 1px;
+    margin: 0em auto;
+}
+
+
+
+/* Dead by April Audio */
+.rectanglerr {
+    transition: transform .2s;
+    display: inline-block;
+    background-image: linear-gradient(to left top, #532b3e90, #4a233690, #411a2e90, #39122690, #300a1e90);
+    /* background-size: 210px; */
+    margin: 5px;
+    border-radius: 6px;
+    border: 1px solid #ffffff30;
+    height: 150px;
+    width: 210px;
+    z-index: 0;
+}
+.rectanglerr:hover{
+    border: 1px solid #ffffff70;
+    box-shadow: 0px 0px 20px #ffffff30;
+}
+.rectanglerr img{
+    width: 25%;
+    padding-top: 5px;
+    padding-left: 5px;
+    float: left;
+    -webkit-filter: drop-shadow(-1px 1px 2px rgba(0, 0, 0, 1));
+    filter: drop-shadow(-1px 1px 2px rgba(0, 0, 0, 1));
+}
+.rectanglerr h5{
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 6px;
+    margin: 0 auto;
+    text-shadow: -1px 1px #000000;
+}
+
+.rectanglerr p{
+    font-size: 12px;
+    color: grey;
+    margin-left: 6px;
+    margin-top: 5px;
+    font-weight: lighter;
+    text-align: left;
+    text-shadow: -1px 1px #000000;
+}
+.rectanglerr hr{
+    border: 0;
+    clear: both;
+    width: 90%;
+    background-color: #ffffff30;
+    height: 1px;
+    margin: 0em auto;
+}
+
+
+
+
+/* Dead by April Audio */
+.rectanglemisc {
+    transition: transform .2s;
+    display: inline-block;
+    background-image: linear-gradient(to left top, #3b2b5390, #31234a90, #271b4190, #1d133890, #140a3090);
+    /* background-size: 210px; */
+    margin: 5px;
+    border-radius: 6px;
+    border: 1px solid #ffffff30;
+    height: 150px;
+    width: 210px;
+    z-index: 0;
+}
+.rectanglemisc:hover{
+    border: 1px solid #ffffff70;
+    box-shadow: 0px 0px 20px #ffffff30;
+}
+.rectanglemisc img{
+    width: 25%;
+    padding-top: 5px;
+    padding-left: 5px;
+    float: left;
+    -webkit-filter: drop-shadow(-1px 1px 2px rgba(0, 0, 0, 1));
+    filter: drop-shadow(-1px 1px 2px rgba(0, 0, 0, 1));
+}
+.rectanglemisc h5{
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 6px;
+    margin: 0 auto;
+    text-shadow: -1px 1px #000000;
+}
+.rectanglemisc p{
+    font-size: 12px;
+    color: grey;
+    margin-left: 6px;
+    margin-top: 5px;
+    font-weight: lighter;
+    text-align: left;
+    text-shadow: -1px 1px #000000;
+}
+.rectanglemisc hr{
+    border: 0;
+    clear: both;
+    width: 90%;
+    background-color: #ffffff30;
+    height: 1px;
+    margin: 0em auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Meida Query */
+@media only screen and (max-width: 768px){
+.audioTabButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.AudioTablinks{
+    margin: 5px !important;
+}
+
+
+}
+

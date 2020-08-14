@@ -1,0 +1,49 @@
+.carousel .thumb{
+  padding: 0 !important;
+  height: 61px !important;
+  margin: 3px !important;
+}
+.carousel .slider-wrapper{
+  height: 377px;
+}
+
+.carousel .thumbs{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.carousel .thumbs{
+transform: translate3d(0px, 0px, 0px) !important;
+}
+
+.carousel-slider{
+  /* margin-top: 73px !important; */
+}
+.carousel{
+  margin-top: 0px ;
+}
+.legend{
+display: none;
+}
+
+
+
+
+
+/* Lower Gallery Buttons  */
+.carousel .control-arrow{
+  /* opacity: 0 !important; */
+}
+
+
+
+
+
+
+/* .carousel .slide img{
+  width: 0 !important;
+}
+.carousel img{
+  width: 0 !important;
+} */

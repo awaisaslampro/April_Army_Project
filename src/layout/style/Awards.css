@@ -1,0 +1,326 @@
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0 ;
+  padding: 0 ;
+}
+
+.topAwardsContainer{
+  /* display: flex; */
+  /* width: 1000px; */
+  /* margin: 0 auto; */
+ 
+}
+
+.awardsContainer{
+  display: flex;
+  justify-content: center;
+align-items: center;
+margin-top: 133px;
+background-color: rgb(58, 56, 56);
+text-decoration: none;
+border-radius: 5px;
+
+/* margin-left: 27px;
+  margin-right: -7px; */
+}
+
+.awardsContainer >div{
+  padding: 17px 48px;
+ 
+}
+.awardsContainer h3{
+  font-size: 17px;
+  /* line-height: 24px !important; */
+  margin:0;
+  
+}
+.awardsContainer p{
+  font-size: 14px;
+  margin:0;
+}
+.awardsContainer .awardsCategory{
+  /* color: white !important; */
+
+}
+
+/*///////////////////////////////////     AwardsList       /////////////////////////////////////////////////  */
+
+
+
+.listContainer{
+  display: flex;
+  justify-content: center;
+ }
+.listContainer > div{
+  width: 100%;
+  margin: 50px;
+}
+.awardsListContainer{
+  border-radius: 5px;
+    margin-top: 10px;
+  background-color: black;
+/* display: flex;
+align-items: center;
+justify-content: center; */
+}
+
+.unlockButton{
+  position: absolute;
+  border-radius: 3px;
+  background-color: #5d625d;
+  color: #dbd6d6;
+  border: 0px;
+  font-size: 14px;
+  padding: 1px 20px;
+
+  top: 131px;
+  left: 17px;
+}
+.awardsFontSize{
+  font-size: 18px !important;
+}
+/* Different Award color */
+.awardsAll{
+  color: #ada5a5 !important;
+}
+.awardsBronze{
+  color: #975a23 !important;
+}
+.awardsGold{
+color: rgb(197, 160, 48) !important;
+}
+.awardsPlatinum{
+color: rgb(182, 188, 193) !important;
+}
+.awardsSilver{
+color: rgb(239, 245, 249) !important;
+}
+.listLeft img{
+    width: 30%;
+}
+.listRight img{
+  width: 30%;
+}
+
+.checkPost {
+     position: relative;
+}
+.checkPostContainer{
+  margin-bottom: 61px;
+  position: relative;
+}
+.checkPostInner{
+  position: absolute;
+  color:white;
+  bottom: 26px;
+  left: 159px;
+  right: 0px;
+}
+.checkPostInner h3{
+  font-size: 17px;
+  margin: 0;
+}
+.checkPostInner p{
+  margin: 0px;
+}
+/*///////////////////////   Media Query  /////////////////*/
+@media only screen and (max-width:1768px){
+.unlockButton{
+  padding: 3px 22px;
+    top: 175px;
+    left: 37px;
+}
+}
+@media only screen and (max-width:1584px){
+  .unlockButton{
+     top: 155px;
+    left: 25px;
+}
+}
+@media only screen and (max-width:1430px){
+  .unlockButton{
+     top: 135px;
+    left: 15px;
+}
+}
+@media only screen and (max-width:1298px){
+  .awardsContainer >div {
+    padding: 17px 40px;
+  }
+  .listContainer > div {
+    margin: 50px 23px 47px 30px;
+  }
+}
+
+
+@media only screen and (max-width:1174px){
+  .listContainer > div {
+    margin: 50px 10px 44px 15px;
+  }
+}
+
+@media only screen and (max-width:1132px){
+  .awardsContainer >div {
+    padding: 17px 31px;
+  }
+}
+
+@media only screen and (max-width:1098px){
+.checkPostInner h3 {
+  font-size: 14px;
+}
+.checkPostInner p {
+font-size: 11px;
+}
+.unlockButton{
+ 
+   top: 110px;
+    left: 9px;
+    font-size: 13px;
+    padding: 3px 17px;
+}
+}
+@media only screen and (max-width:1027px){
+  .checkPostInner {
+    bottom: 20px;
+    left: 135px;
+}
+}
+
+@media only screen and (max-width:964px){
+  .awardsContainer >div {
+    padding: 17px 25px;
+  }
+  .checkPostInner {
+    bottom: 12px;
+    left: 109px;
+}
+}
+
+@media only screen and (max-width:938px){
+
+  .unlockButton{
+    padding: 1px 13px;
+    font-size: 12px;
+    top: 107px;
+    left: 14px;
+    }
+}
+@media only screen and (max-width:878px){
+.checkPostInner h3 {
+  font-size: 13px;
+}
+
+.checkPostInner p {
+  font-size: 10px;
+  }
+
+  .checkPostInner {
+    bottom: 0px;
+    left: 101px;
+}
+}
+
+
+@media only screen and (max-width:852px){
+  .awardsContainer >div {
+    padding: 17px 19px;
+  }
+.checkPostInner h3 {
+  font-size: 12px;
+}
+.unlockButton{
+    padding: 1px 13px;
+    font-size: 11px;
+    top: 95px;
+    left: 13px;
+}
+}
+
+/*/// Screen below at 768 ////*/
+
+@media only screen and (max-width:768px){
+  .awardsContainer >div {
+    padding: 3px 17px;
+  }
+  .firstPost{
+    margin-top: 33px;
+  }
+  .listRight{
+    margin: 0px;
+  }
+  .listContainer > div {
+
+    margin: 0px;
+  }
+  .listLeft{
+    margin: 0px;
+  }
+.checkPostContainer {
+  margin-bottom: 33px;
+}
+  .awardsContainer {
+    flex-direction: column;
+  }
+  .listContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .unLockButtonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .unLockButtonContainer >div{
+    margin: 3px;
+  }
+  .unlockButton{
+  position: unset;
+  padding: 1px 17px;
+  font-size: 12px;
+  }
+  .checkPostInner{
+    position: unset;
+  }
+  .awardsArrowRight{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width:768px){
+  .listLeft img {
+    width: 36%;
+  }
+  .listRight img{
+    width: 36%;
+  }
+  .checkPostInner h3 {
+    font-size: 14px;
+  }
+.unlockButton{
+  padding: 1px 21px;
+}
+}
+@media only screen and (max-width: 500px){
+  .unlockButton{
+    padding: 1px 13px;
+    font-size: 11px;
+  }
+  .checkPostInner h3 {
+    font-size: 11px;
+  }
+}
+@media only screen and (min-width: 320px){
+
+.checkPostInner h3 {
+   line-height: 22px;
+}
+}
+
+
+
+
+
+
+
+
