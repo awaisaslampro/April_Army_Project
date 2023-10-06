@@ -8,17 +8,17 @@ import { Link } from 'react-router-dom';
 import Main from './components/Auth/Route/Main';
 
 const divStyle = {
-   
+
     display: 'flex',
     justifyContent: 'center',
     width: '98%',
 
-  };
+};
 function App() {
     return (
         // <div className="demo-big-content">
-            <Layout className="main-landing">
-                {/* <Header className="header">
+        <Layout className="main-landing">
+            {/* <Header className="header">
                     <HeaderRow title=" " className="header-color">
                         <div  className="logoIn"  style={divStyle}>
                             <Link to="/LandingPage"><img src={"/assets/img/logo.png"} ></img></Link>
@@ -53,14 +53,15 @@ function App() {
                 </Drawer>
        */}
 
-                <Content>
-                    <div className="page-content" />
-                    <Main />
-                </Content>
-                </Layout>
-                // </div>
-              
-          
+            <Content>
+                <div className="page-content" />
+                <Main />
+            </Content>
+        </Layout>
+        // </div> this is all about content 
+        //and going to push to gitHub
+
+
     );
 }
 
