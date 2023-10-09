@@ -46,20 +46,22 @@
 </head>
 
 <body>
-  <noscript>You need to learn more about Javascript</noscript>
+  <noscript>You need to learn more ABOUT NODE JS</noscript>
   <div id="root"></div>
   <h1>Learning Redux</h1>
   <script>
-    let arr = [10, 2, 20, 33, 50];
+    function maxNum() {
+      let arr = [10, 2, 20, 33, 50];
 
-    let max = arr[0];
-    // for(let i=1;i<arr.length;i++)
-    // {
-    //   if(arr[i]<max){
-    //     return max;
-    //   }
-    // }
-    console.log("Max number is=> ", Math.max(...arr));
+      let max = arr[0];
+      for (let i = 1; i < arr.length; i++) {
+        if (arr[i] < max) {
+          return max;
+        }
+      }
+    }
+    console.log('Here is: ', maxNum())
+    // console.log("Max number is=> ", Math.max(...arr));
 
   </script>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"
