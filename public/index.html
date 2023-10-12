@@ -64,10 +64,11 @@
     }
     console.log('Here is: ', maxNum());
     function Double(array) {
-      array.map((arr) => {
+      console.log("Array is: ", array)
+      const doubleArray = array.map(arr => {
         return arr * 2;
       })
-
+      console.log(doubleArray)
     }
 
     console.log("Double elements: ", Double([2, 3, 4, 5]))
