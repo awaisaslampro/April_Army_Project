@@ -51,16 +51,19 @@
   <h1>Learning Redux</h1>
   <script>
     function maxNum() {
-      let arr = [10, 2, 20, 33, 50];
+      let arr = [1, 2, 55, 33, 66, 2, 13];
 
-      let max = arr[0];
+
+      let maxx = arr[0];
+
       for (let i = 1; i < arr.length; i++) {
-        if (arr[i] < max) {
-          return max;
+        if (arr[i] < maxx) {
+          return maxx;
         }
       }
     }
-    console.log('Here is: ', maxNum())
+    console.log('Here is: ', maxNum());
+
     // console.log("Max number is=> ", Math.max(...arr));
 
   </script>
