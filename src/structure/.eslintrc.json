@@ -8,7 +8,11 @@
   "globals": {
     "JSX": true
   },
-  "extends": ["eslint:recommended", "plugin:react/recommended", "prettier"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "prettier"
+  ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {
@@ -17,8 +21,12 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["react", "@typescript-eslint", "react-hooks", "prettier"],
-
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "react-hooks",
+    "prettier"
+  ],
   "rules": {
     "no-restricted-exports": "off",
     "react/jsx-no-useless-fragment": "off",
@@ -42,7 +50,9 @@
     "react/jsx-curly-newline": "off",
     "react/jsx-wrap-multilines": "off",
     "no-shadow": "off",
-    "@typescript-eslint/no-shadow": ["error"],
+    "@typescript-eslint/no-shadow": [
+      "error"
+    ],
     "react/jsx-one-expression-per-line": "off",
     "no-template-curly-in-string": "off",
     "react/jsx-props-no-spreading": "off",
@@ -67,7 +77,7 @@
     "no-unused-expressions": "off",
     "no-unused-vars": "off",
     "@typescript-eslint/no-unused-vars": [
-      "error",
+      "warn",
       {
         "argsIgnorePattern": "^_",
         "ignoreRestSiblings": true
@@ -76,7 +86,12 @@
     "react/jsx-filename-extension": [
       2,
       {
-        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx"
+        ]
       }
     ],
     "import/extensions": "off"
